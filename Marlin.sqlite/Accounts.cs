@@ -2,7 +2,7 @@
 {
     public class Accounts
     {
-        public int ID { get; set; }
+        public int id { get; set; }
         public string AccountID { get; set; }
         public string LegalCode { get; set; }
         public string Name { get; set; }

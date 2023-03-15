@@ -10,6 +10,7 @@ namespace Marlin.sqlite.Controllers
     public class AccountsController : ControllerBase
     {
         private readonly DataContext _context;
+
         public AccountsController(DataContext context)
         {
             _context = context;
@@ -31,7 +32,7 @@ namespace Marlin.sqlite.Controllers
             return Ok(await _context.Accounts.ToListAsync());
         }
 
-        [HttpGet("{id]")]
+        [HttpGet("{id}")]
 
         public async Task<ActionResult<Accounts>>GetUser(int id)
         {
