@@ -1,4 +1,5 @@
 ﻿using Marlin.sqlite.Data;
+using Marlin.sqlite.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

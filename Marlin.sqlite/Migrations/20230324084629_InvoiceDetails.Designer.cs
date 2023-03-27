@@ -3,6 +3,7 @@ using System;
 using Marlin.sqlite.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Marlin.sqlite.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230324084629_InvoiceDetails")]
+    partial class InvoiceDetails
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.4");
@@ -107,110 +110,6 @@ namespace Marlin.sqlite.Migrations
                     b.ToTable("Catalogues");
                 });
 
-            modelBuilder.Entity("Marlin.sqlite.Models.InvoiceDetail", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<double>("Amount")
-                        .HasColumnType("REAL");
-
-                    b.Property<string>("InvoiceID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("REAL");
-
-                    b.Property<string>("ProductID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<double>("Quantity")
-                        .HasColumnType("REAL");
-
-                    b.Property<double>("Unit")
-                        .HasColumnType("REAL");
-
-                    b.HasKey("id");
-
-                    b.ToTable("InvoiceDetails");
-                });
-
-            modelBuilder.Entity("Marlin.sqlite.Models.InvoiceHeader", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<double>("Amount")
-                        .HasColumnType("REAL");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("InvoiceID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<double>("Number")
-                        .HasColumnType("REAL");
-
-                    b.Property<string>("OrderID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("PaymentDate")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("StatusID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("WaybillNumber")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("InvoiceHeaders");
-                });
-
-            modelBuilder.Entity("Marlin.sqlite.Models.OrderDetails", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<double>("Amount")
-                        .HasColumnType("REAL");
-
-                    b.Property<string>("OrderID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("REAL");
-
-                    b.Property<string>("ProductID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<double>("Quantity")
-                        .HasColumnType("REAL");
-
-                    b.Property<double>("ReservedQuantity")
-                        .HasColumnType("REAL");
-
-                    b.Property<double>("Unit")
-                        .HasColumnType("REAL");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("OrderDetails");
-                });
-
             modelBuilder.Entity("Marlin.sqlite.Models.OrderHeader", b =>
                 {
                     b.Property<int>("Id")
@@ -253,47 +152,6 @@ namespace Marlin.sqlite.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("OrderHeaders");
-                });
-
-            modelBuilder.Entity("Marlin.sqlite.Models.OrderStatus", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("StatusID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("StatusName")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("OrderStatus");
-                });
-
-            modelBuilder.Entity("Marlin.sqlite.Models.OrderStatusHistory", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("OrderID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("StatusID")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("OrderStatusHistory");
                 });
 #pragma warning restore 612, 618
         }

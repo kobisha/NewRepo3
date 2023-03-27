@@ -1,4 +1,4 @@
-﻿namespace Marlin.sqlite
+﻿namespace Marlin.sqlite.Models
 {
     public class Accounts
     {
