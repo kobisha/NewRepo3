@@ -1,7 +1,10 @@
 ﻿using Marlin.sqlite.Data;
+using Marlin.sqlite.Filter;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 
 namespace Marlin.sqlite.Controllers
@@ -28,21 +31,28 @@ namespace Marlin.sqlite.Controllers
 
         [HttpGet]
 
-        public async Task<ActionResult<List<Accounts>>> GetUsers()
+        public async Task<IActionResult> GetUsers([FromQuery] PaginationFilter filter)
         {
-            return Ok(await _context.Accounts.ToListAsync());
+            var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
+            var pagedData = await _context.Accounts
+               .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
+               .Take(validFilter.PageSize)
+               .ToListAsync();
+            var totalRecords = await _context.Accounts.CountAsync();
+            
+            return Ok( new PagedResponse<List<Accounts>>(pagedData,validFilter.PageNumber,validFilter.PageSize));
         }
 
         [HttpGet("{id}")]
 
-        public async Task<ActionResult<Accounts>>GetUser(int id)
+        public async Task<IActionResult> GetUser(int id)
         {
-            var user = await _context.Accounts.FindAsync(id);
+            var user = await _context.Accounts.Where(a => a.id == id).FirstOrDefaultAsync();
             if (user == null)
             {
                 return BadRequest("User not found.");
             }
-            return Ok(user);
+            return Ok(new Response<Accounts>(user));
         }
     }
 }
