@@ -18,8 +18,8 @@ namespace Marlin.sqlite.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    StatusID = table.Column<string>(type: "TEXT", nullable: false),
-                    StatusName = table.Column<string>(type: "TEXT", nullable: false)
+                    StatusID = table.Column<string>(type: "TEXT", nullable: true),
+                    StatusName = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {

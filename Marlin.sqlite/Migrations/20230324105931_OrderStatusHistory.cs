@@ -16,9 +16,9 @@ namespace Marlin.sqlite.Migrations
                {
                    Id = table.Column<int>(type: "INTEGER", nullable: false)
                        .Annotation("Sqlite:Autoincrement", true),
-                   OrderID = table.Column<string>(type: "TEXT", nullable: false),
-                   Date = table.Column<DateTime>(type: "TEXT", nullable: false),
-                   StatusID = table.Column<string>(type: "TEXT", nullable: false)
+                   OrderID = table.Column<string>(type: "TEXT", nullable: true),
+                   Date = table.Column<DateTime>(type: "TEXT", nullable: true),
+                   StatusID = table.Column<string>(type: "TEXT", nullable: true)
                },
                constraints: table =>
                {

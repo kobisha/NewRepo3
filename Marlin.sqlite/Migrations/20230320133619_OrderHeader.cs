@@ -16,15 +16,15 @@ namespace Marlin.sqlite.Migrations
                 {
                     id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    OrderID = table.Column<string>(type: "TEXT", nullable: false),
-                    SourceID = table.Column<string>(type: "TEXT", nullable: false),
-                    Date = table.Column<DateTime>(type: "DATE", nullable: false),
-                    Number = table.Column<string>(type: "TEXT", nullable: false),
-                    SenderID = table.Column<string>(type: "TEXT", nullable: false),
-                    ReceiverID = table.Column<string>(type: "TEXT", nullable: false),
-                    ShopID = table.Column<string>(type: "TEXT", nullable: false),
-                    Amount = table.Column<double>(type: "DOUBLE", nullable: false),
-                    StatusID = table.Column<double>(type: "DOUBLE", nullable: false)
+                    OrderID = table.Column<string>(type: "TEXT", nullable: true),
+                    SourceID = table.Column<string>(type: "TEXT", nullable: true),
+                    Date = table.Column<DateTime>(type: "DATE", nullable: true),
+                    Number = table.Column<string>(type: "TEXT", nullable: true),
+                    SenderID = table.Column<string>(type: "TEXT", nullable: true),
+                    ReceiverID = table.Column<string>(type: "TEXT", nullable: true),
+                    ShopID = table.Column<string>(type: "TEXT", nullable: true),
+                    Amount = table.Column<double>(type: "DOUBLE", nullable: true),
+                    StatusID = table.Column<double>(type: "DOUBLE", nullable: true)
                 },
                 constraints: table =>
                 {

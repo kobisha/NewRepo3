@@ -18,12 +18,12 @@ namespace Marlin.sqlite.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    AccountID = table.Column<string>(type: "TEXT", nullable: false),
-                    Date = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    ProductID = table.Column<string>(type: "TEXT", nullable: false),
-                    PriceType = table.Column<string>(type: "TEXT", nullable: false),
-                    Unit = table.Column<double>(type:"REAL", nullable:false),
-                    Price = table.Column<double>(type: "REAL", nullable: false)
+                    AccountID = table.Column<string>(type: "TEXT", nullable: true),
+                    Date = table.Column<DateTime>(type: "TEXT", nullable: true),
+                    ProductID = table.Column<string>(type: "TEXT", nullable: true),
+                    PriceType = table.Column<string>(type: "TEXT", nullable: true),
+                    Unit = table.Column<double>(type:"REAL", nullable: true),
+                    Price = table.Column<double>(type: "REAL", nullable: true)
                 },
                 constraints: table =>
                 {

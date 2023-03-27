@@ -19,14 +19,14 @@ namespace Marlin.sqlite.Migrations
                 {
                     ID = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    OrderID = table.Column<string>(type: "TEXT", nullable: false),
-                    InvoiceID = table.Column<string>(type: "TEXT", nullable: false),
-                    Date = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    Number = table.Column<double>(type: "REAL", nullable: false),
-                    Amount = table.Column<double>(type: "REAL", nullable: false),
-                    StatusID = table.Column<string>(type: "TEXT", nullable: false),
-                    WaybillNumber = table.Column<string>(type: "TEXT", nullable: false),
-                    PaymentDate = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    OrderID = table.Column<string>(type: "TEXT", nullable: true),
+                    InvoiceID = table.Column<string>(type: "TEXT", nullable: true),
+                    Date = table.Column<DateTime>(type: "TEXT", nullable: true),
+                    Number = table.Column<double>(type: "REAL", nullable: true),
+                    Amount = table.Column<double>(type: "REAL", nullable: true),
+                    StatusID = table.Column<string>(type: "TEXT", nullable: true),
+                    WaybillNumber = table.Column<string>(type: "TEXT", nullable: true),
+                    PaymentDate = table.Column<DateTime>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
