@@ -1,5 +1,7 @@
 ﻿using Marlin.sqlite.Data;
+using Marlin.sqlite.Filter;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -30,21 +32,69 @@ namespace Marlin.sqlite.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<List<InvoiceHeader>>> GetOrders()
+        public async Task<IActionResult> GetOrders([FromQuery] PaginationFilter filter)
         {
-            return Ok(await _context.InvoiceHeaders.ToListAsync());
+            var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
+            var pagedData = await _context.InvoiceHeaders
+               .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
+               .Take(validFilter.PageSize)
+               .ToListAsync();
+            var totalRecords = await _context.InvoiceHeaders.CountAsync();
+
+            return Ok(new PagedResponse<List<InvoiceHeader>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
         }
 
         [HttpGet("{id}")]
 
-        public async Task<ActionResult<List<InvoiceHeader>>> GetOrder(int id)
+        public async Task<IActionResult> GetOrder(int id)
         {
-            var order = await _context.InvoiceHeaders.FindAsync(id);
-            if (order == null)
+            var header = await _context.InvoiceHeaders.Where(a => a.ID == id).FirstOrDefaultAsync();
+            if (header == null)
             {
-                return BadRequest("Order not found.");
+                return BadRequest("User not found.");
             }
-            return Ok(order);
+            return Ok(new Response<InvoiceHeader>(header));
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<InvoiceHeader>> DeleteHeader(int id)
+        {
+            var result = await _context.InvoiceHeaders
+            .FirstOrDefaultAsync(e => e.ID == id);
+            if (result != null)
+            {
+                _context.InvoiceHeaders.Remove(result);
+                await _context.SaveChangesAsync();
+                return result;
+            }
+
+            return null;
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<InvoiceHeader>> UpdateInvoice(InvoiceHeader item)
+        {
+            var result = await _context.InvoiceHeaders
+            .FirstOrDefaultAsync(e => e.ID == item.ID);
+
+            if (result != null)
+            {
+                result.OrderID = item.OrderID;
+                result.InvoiceID = item.InvoiceID;
+                result.Date = item.Date;
+                result.Number = item.Number;
+                result.Amount = item.Amount;
+                result.StatusID = item.StatusID;
+                result.WaybillNumber = item.WaybillNumber;
+                result.PaymentDate = item.PaymentDate;
+
+
+                await _context.SaveChangesAsync();
+
+                return result;
+            }
+
+            return null;
         }
     }
 }

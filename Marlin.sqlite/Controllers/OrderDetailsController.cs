@@ -1,5 +1,7 @@
 ﻿using Marlin.sqlite.Data;
+using Marlin.sqlite.Filter;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -30,21 +32,69 @@ namespace Marlin.sqlite.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<List<OrderDetails>>> GetOrders()
+        public async Task<IActionResult> GetOrders([FromQuery] PaginationFilter filter)
         {
-            return Ok(await _context.OrderDetails.ToListAsync());
+            var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
+            var pagedData = await _context.OrderDetails
+               .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
+               .Take(validFilter.PageSize)
+               .ToListAsync();
+            var totalRecords = await _context.OrderDetails.CountAsync();
+
+            return Ok(new PagedResponse<List<OrderDetails>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
         }
 
         [HttpGet("{id}")]
 
-        public async Task<ActionResult<List<OrderDetails>>> GetOrder(int id)
+        public async Task<IActionResult> GetOrder(int id)
         {
-            var order = await _context.OrderDetails.FindAsync(id);
-            if (order == null)
+            var header = await _context.OrderDetails.Where(a => a.Id == id).FirstOrDefaultAsync();
+            if (header == null)
             {
-                return BadRequest("Order not found.");
+                return BadRequest("User not found.");
             }
-            return Ok(order);
+            return Ok(new Response<OrderDetails>(header));
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<OrderDetails>> DeleteDetals(int id)
+        {
+            var result = await _context.OrderDetails
+            .FirstOrDefaultAsync(e => e.Id == id);
+            if (result != null)
+            {
+                _context.OrderDetails.Remove(result);
+                await _context.SaveChangesAsync();
+                return result;
+            }
+
+            return null;
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<OrderDetails>> UpdateInvoice(OrderDetails item)
+        {
+            var result = await _context.OrderDetails
+            .FirstOrDefaultAsync(e => e.Id == item.Id);
+
+            if (result != null)
+            {
+                result.OrderID = item.OrderID;
+                result.ProductID = item.ProductID;
+                result.Unit = item.Unit;
+                result.Quantity = item.Quantity;
+                result.Price = item.Price;
+                result.Amount = item.Amount;
+                result.ReservedQuantity = item.ReservedQuantity;
+               
+
+
+                await _context.SaveChangesAsync();
+
+                return result;
+            }
+
+            return null;
         }
     }
 }

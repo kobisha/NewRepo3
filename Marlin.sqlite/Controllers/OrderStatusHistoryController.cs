@@ -1,5 +1,7 @@
 ﻿using Marlin.sqlite.Data;
+using Marlin.sqlite.Filter;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -30,21 +32,66 @@ namespace Marlin.sqlite.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<List<OrderStatusHistory>>> GetOrders()
+        public async Task<IActionResult> GetOrders([FromQuery] PaginationFilter filter)
         {
-            return Ok(await _context.OrderStatusHistory.ToListAsync());
+            var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
+            var pagedData = await _context.OrderStatusHistory
+               .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
+               .Take(validFilter.PageSize)
+               .ToListAsync();
+            var totalRecords = await _context.OrderStatusHistory.CountAsync();
+
+            return Ok(new PagedResponse<List<OrderStatusHistory>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
         }
 
         [HttpGet("{id}")]
 
-        public async Task<ActionResult<List<OrderStatusHistory>>> GetOrder(int id)
+        public async Task<IActionResult> GetOrder(int id)
         {
-            var order = await _context.OrderStatusHistory.FindAsync(id);
-            if (order == null)
+            var header = await _context.OrderStatusHistory.Where(a => a.Id == id).FirstOrDefaultAsync();
+            if (header == null)
             {
-                return BadRequest("Order not found.");
+                return BadRequest("User not found.");
             }
-            return Ok(order);
+            return Ok(new Response<OrderStatusHistory>(header));
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<OrderStatusHistory>> DeleteStatus(int id)
+        {
+            var result = await _context.OrderStatusHistory
+            .FirstOrDefaultAsync(e => e.Id == id);
+            if (result != null)
+            {
+                _context.OrderStatusHistory.Remove(result);
+                await _context.SaveChangesAsync();
+                return result;
+            }
+
+            return null;
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<OrderStatusHistory>> UpdateInvoice(OrderStatusHistory item)
+        {
+            var result = await _context.OrderStatusHistory
+            .FirstOrDefaultAsync(e => e.Id == item.Id);
+
+            if (result != null)
+            {
+                result.OrderID = item.OrderID;
+                result.Date = item.Date;
+                result.StatusID = item.StatusID;
+
+
+
+
+                await _context.SaveChangesAsync();
+
+                return result;
+            }
+
+            return null;
         }
     }
 }

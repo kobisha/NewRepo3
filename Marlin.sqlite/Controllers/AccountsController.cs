@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Marlin.sqlite.Controllers
 {
@@ -53,6 +54,46 @@ namespace Marlin.sqlite.Controllers
                 return BadRequest("User not found.");
             }
             return Ok(new Response<Accounts>(user));
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<Accounts>> DeleteAccount(int id)
+        {
+            var result = await _context.Accounts
+            .FirstOrDefaultAsync(e => e.id == id);
+            if (result != null)
+            {
+                _context.Accounts.Remove(result);
+                await _context.SaveChangesAsync();
+                return result;
+            }
+
+            return null;
+        }
+        [HttpPut]
+        public async Task<ActionResult<Accounts>>UpdateUser(Accounts user)
+        {
+            var result = await _context.Accounts
+            .FirstOrDefaultAsync(e => e.id == user.id);
+
+            if (result != null)
+            {
+                result.AccountID = user.AccountID;
+                result.LegalCode = user.LegalCode;
+                result.Name = user.Name;
+                result.Description = user.Description;
+                result.Address = user.Address;
+                result.Phone = user.Phone;
+                result.Email = user.Email;
+                result.Supplier = user.Supplier;
+                result.Buyer = user.Buyer;
+
+                await _context.SaveChangesAsync();
+
+                return result;
+            }
+
+            return null;
         }
     }
 }
