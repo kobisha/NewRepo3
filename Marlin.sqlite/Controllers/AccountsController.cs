@@ -4,9 +4,7 @@ using Marlin.sqlite.Models;
 using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace Marlin.sqlite.Controllers
 {
