@@ -5,7 +5,8 @@ using Marlin.sqlite.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using Marlin.sqlite.Services;
+using Marlin.sqlite.Helper;
 
 namespace Marlin.sqlite.Controllers
 {
@@ -14,10 +15,12 @@ namespace Marlin.sqlite.Controllers
     public class UserSettingsController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IUriService _uriService;
 
-        public UserSettingsController(DataContext context)
+        public UserSettingsController(DataContext context, IUriService uriService)
         {
             _context = context;
+            _uriService = uriService;
         }
         [HttpPost]
 
@@ -33,14 +36,15 @@ namespace Marlin.sqlite.Controllers
 
         public async Task<IActionResult> GetUserSettings([FromQuery] PaginationFilter filter)
         {
+            var route = Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
             var pagedData = await _context.UserSettings
                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                .Take(validFilter.PageSize)
                .ToListAsync();
             var totalRecords = await _context.UserSettings.CountAsync();
-
-            return Ok(new PagedResponse<List<UserSettings>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
+            var pagedReponse = PaginationHelper.CreatePagedReponse<UserSettings>(pagedData, validFilter, totalRecords, _uriService, route);
+            return Ok(pagedReponse);
         }
 
         [HttpGet("{id}")]

@@ -1,6 +1,8 @@
 ﻿using Marlin.sqlite.Data;
 using Marlin.sqlite.Filter;
+using Marlin.sqlite.Helper;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Services;
 using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,10 +15,12 @@ namespace Marlin.sqlite.Controllers
     public class OrderStatusController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IUriService _uriService;
 
-        public OrderStatusController(DataContext context)
+        public OrderStatusController(DataContext context, IUriService uriService)
         {
             _context = context;
+            _uriService = uriService;
         }
 
         [HttpPost]
@@ -34,14 +38,15 @@ namespace Marlin.sqlite.Controllers
         [HttpGet]
         public async Task<IActionResult> GetOrders([FromQuery] PaginationFilter filter)
         {
+            var route = Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
             var pagedData = await _context.OrderStatus  
                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                .Take(validFilter.PageSize)
                .ToListAsync();
             var totalRecords = await _context.OrderStatus.CountAsync();
-
-            return Ok(new PagedResponse<List<OrderStatus>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
+            var pagedReponse = PaginationHelper.CreatePagedReponse<OrderStatus>(pagedData, validFilter, totalRecords, _uriService, route);
+            return Ok(pagedReponse);
         }
 
         [HttpGet("{id}")]

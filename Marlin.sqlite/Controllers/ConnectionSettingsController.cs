@@ -2,10 +2,11 @@
 using Marlin.sqlite.Filter;
 using Marlin.sqlite.Wrappers;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Services;
+using Marlin.sqlite.Helper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 
 
 namespace Marlin.sqlite.Controllers
@@ -15,40 +16,43 @@ namespace Marlin.sqlite.Controllers
     public class ConnectionSettingsController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IUriService _uriService;
 
-        public ConnectionSettingsController(DataContext context)
+        public ConnectionSettingsController(DataContext context, IUriService uriService)
         {
             _context = context;
+            _uriService = uriService;
         }
         [HttpPost]
 
         public async Task<ActionResult<List<ConnectionSettings>>> AddSettings(ConnectionSettings settings)
         {
-            _context.ConnectionSetting.Add(settings);
+            _context.ConnectionSettings.Add(settings);
             await _context.SaveChangesAsync();
 
-            return Ok(await _context.ConnectionSetting.ToListAsync());
+            return Ok(await _context.ConnectionSettings.ToListAsync());
         }
 
         [HttpGet]
 
         public async Task<IActionResult> GetSettings([FromQuery] PaginationFilter filter)
         {
+            var route = Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
-            var pagedData = await _context.ConnectionSetting
+            var pagedData = await _context.ConnectionSettings
                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                .Take(validFilter.PageSize)
                .ToListAsync();
-            var totalRecords = await _context.ConnectionSetting.CountAsync();
-
-            return Ok(new PagedResponse<List<ConnectionSettings>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
+            var totalRecords = await _context.ConnectionSettings.CountAsync();
+            var pagedReponse = PaginationHelper.CreatePagedReponse<ConnectionSettings>(pagedData, validFilter, totalRecords, _uriService, route);
+            return Ok(pagedReponse);
         }
 
         [HttpGet("{id}")]
 
         public async Task<IActionResult> GetSetting(int id)
         {
-            var user = await _context.ConnectionSetting.Where(a => a.id == id).FirstOrDefaultAsync();
+            var user = await _context.ConnectionSettings.Where(a => a.id == id).FirstOrDefaultAsync();
             if (user == null)
             {
                 return BadRequest("User not found.");
@@ -59,11 +63,11 @@ namespace Marlin.sqlite.Controllers
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<ConnectionSettings>> DeleteSettings(int id)
         {
-            var result = await _context.ConnectionSetting
+            var result = await _context.ConnectionSettings
             .FirstOrDefaultAsync(e => e.id == id);
             if (result != null)
             {
-                _context.ConnectionSetting.Remove(result);
+                _context.ConnectionSettings.Remove(result);
                 await _context.SaveChangesAsync();
                 return result;
             }
@@ -73,7 +77,7 @@ namespace Marlin.sqlite.Controllers
         [HttpPut]
         public async Task<ActionResult<ConnectionSettings>> UpdateSettings(ConnectionSettings item)
         {
-            var result = await _context.ConnectionSetting
+            var result = await _context.ConnectionSettings
             .FirstOrDefaultAsync(e => e.id == item.id);
 
             if (result != null)

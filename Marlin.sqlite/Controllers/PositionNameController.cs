@@ -5,6 +5,8 @@ using Marlin.sqlite.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Marlin.sqlite.Services;
+using Marlin.sqlite.Helper;
 
 namespace Marlin.sqlite.Controllers
 {
@@ -13,40 +15,43 @@ namespace Marlin.sqlite.Controllers
     public class PositionNameController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IUriService _uriService;
 
-        public PositionNameController(DataContext context)
+        public PositionNameController(DataContext context, IUriService uriService)
         {
             _context = context;
+            _uriService = uriService;
         }
         [HttpPost]
 
         public async Task<ActionResult<List<PositionName>>> AddPositionName(PositionName name)
         {
-            _context.PositionNames.Add(name);
+            _context.PositionName.Add(name);
             await _context.SaveChangesAsync();
 
-            return Ok(await _context.PositionNames.ToListAsync());
+            return Ok(await _context.PositionName.ToListAsync());
         }
 
         [HttpGet]
 
         public async Task<IActionResult> GetPositionNames([FromQuery] PaginationFilter filter)
         {
+            var route = Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
-            var pagedData = await _context.PositionNames
+            var pagedData = await _context.PositionName
                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                .Take(validFilter.PageSize)
                .ToListAsync();
-            var totalRecords = await _context.PositionNames.CountAsync();
-
-            return Ok(new PagedResponse<List<PositionName>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
+            var totalRecords = await _context.PositionName.CountAsync();
+            var pagedReponse = PaginationHelper.CreatePagedReponse<PositionName>(pagedData, validFilter, totalRecords, _uriService, route);
+            return Ok(pagedReponse);
         }
 
         [HttpGet("{id}")]
 
         public async Task<IActionResult> GetPositionName(int id)
         {
-            var user = await _context.PositionNames.Where(a => a.id == id).FirstOrDefaultAsync();
+            var user = await _context.PositionName.Where(a => a.id == id).FirstOrDefaultAsync();
             if (user == null)
             {
                 return BadRequest("User not found.");
@@ -57,11 +62,11 @@ namespace Marlin.sqlite.Controllers
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<PositionName>> DeletePositionName(int id)
         {
-            var result = await _context.PositionNames
+            var result = await _context.PositionName
             .FirstOrDefaultAsync(e => e.id == id);
             if (result != null)
             {
-                _context.PositionNames.Remove(result);
+                _context.PositionName.Remove(result);
                 await _context.SaveChangesAsync();
                 return result;
             }
@@ -71,7 +76,7 @@ namespace Marlin.sqlite.Controllers
         [HttpPut]
         public async Task<ActionResult<PositionName>> UpdatePositionName(PositionName item)
         {
-            var result = await _context.PositionNames
+            var result = await _context.PositionName
             .FirstOrDefaultAsync(e => e.id == item.id);
 
             if (result != null)

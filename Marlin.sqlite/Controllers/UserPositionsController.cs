@@ -5,6 +5,8 @@ using Marlin.sqlite.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Marlin.sqlite.Services;
+using Marlin.sqlite.Helper;
 
 namespace Marlin.sqlite.Controllers
 {
@@ -13,10 +15,12 @@ namespace Marlin.sqlite.Controllers
     public class UserPositionsController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IUriService _uriService;
 
-        public UserPositionsController(DataContext context)
+        public UserPositionsController(DataContext context, IUriService uriService)
         {
             _context = context;
+            _uriService = uriService;
         }
         [HttpPost]
 
@@ -32,14 +36,15 @@ namespace Marlin.sqlite.Controllers
 
         public async Task<IActionResult> GetUserPositions([FromQuery] PaginationFilter filter)
         {
+            var route = Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
             var pagedData = await _context.UserPositions
                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                .Take(validFilter.PageSize)
                .ToListAsync();
             var totalRecords = await _context.UserPositions.CountAsync();
-
-            return Ok(new PagedResponse<List<UserPositions>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
+            var pagedReponse = PaginationHelper.CreatePagedReponse<UserPositions>(pagedData, validFilter, totalRecords, _uriService, route);
+            return Ok(pagedReponse);
         }
 
         [HttpGet("{id}")]

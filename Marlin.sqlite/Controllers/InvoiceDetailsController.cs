@@ -1,7 +1,9 @@
 ﻿using Marlin.sqlite.Data;
 using Marlin.sqlite.Filter;
+using Marlin.sqlite.Helper;
 using Marlin.sqlite.Migrations;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Services;
 using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,10 +16,12 @@ namespace Marlin.sqlite.Controllers
     public class InvoiceDetailsController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IUriService _uriService;
 
-        public InvoiceDetailsController(DataContext context)
+        public InvoiceDetailsController(DataContext context, IUriService uriService)
         {
             _context = context;
+            _uriService = uriService;
         }
 
         [HttpPost]
@@ -34,14 +38,15 @@ namespace Marlin.sqlite.Controllers
 
         public async Task<IActionResult> GetInvoices([FromQuery] PaginationFilter filter)
         {
+            var route = Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
             var pagedData = await _context.InvoiceDetails
                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                .Take(validFilter.PageSize)
                .ToListAsync();
             var totalRecords = await _context.InvoiceDetails.CountAsync();
-
-            return Ok(new PagedResponse<List<InvoiceDetail>>(pagedData, validFilter.PageNumber, validFilter.PageSize));
+            var pagedReponse = PaginationHelper.CreatePagedReponse<InvoiceDetail>(pagedData, validFilter, totalRecords, _uriService, route);
+            return Ok(pagedReponse);
         }
 
         [HttpGet("{id}")]

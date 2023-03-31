@@ -24,12 +24,12 @@ namespace Marlin.sqlite.Data
         public DbSet<AccessProfiles> AccessProfiles => Set<AccessProfiles>();
         public DbSet<AccessSettings> AccessSettings => Set<AccessSettings>();
         public DbSet<AccountSettings> AccountSettings => Set<AccountSettings>();
-        public DbSet<ConnectionSettings> ConnectionSetting => Set<ConnectionSettings>();
+        public DbSet<ConnectionSettings> ConnectionSettings => Set<ConnectionSettings>();
         public DbSet<ErrorCodes> ErrorCodes => Set<ErrorCodes>();
-        public DbSet<ExchangeLog> ExchangeLogs => Set<ExchangeLog>();
+        public DbSet<ExchangeLog> ExchangeLog => Set<ExchangeLog>();
         public DbSet<Invoices> Invoices => Set<Invoices>();
         public DbSet<Messages> Messages => Set<Messages>();
-        public DbSet<PositionName> PositionNames => Set<PositionName>();
+        public DbSet<PositionName> PositionName => Set<PositionName>();
         public DbSet<Shops> Shops => Set<Shops>();
         public DbSet<UserPositions> UserPositions => Set<UserPositions>();
         public DbSet<Users> Users => Set<Users>();

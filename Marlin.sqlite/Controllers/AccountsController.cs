@@ -1,10 +1,14 @@
 ﻿using Marlin.sqlite.Data;
 using Marlin.sqlite.Filter;
+using Marlin.sqlite.Helper;
 using Marlin.sqlite.Models;
+using Marlin.sqlite.Services;
 using Marlin.sqlite.Wrappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Marlin.sqlite.Controllers
 {
@@ -13,10 +17,12 @@ namespace Marlin.sqlite.Controllers
     public class AccountsController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly IUriService _uriService;
 
-        public AccountsController(DataContext context)
+        public AccountsController(DataContext context, IUriService uriService)
         {
             _context = context;
+            _uriService = uriService;
         }
         [HttpPost]
 
@@ -32,14 +38,15 @@ namespace Marlin.sqlite.Controllers
 
         public async Task<IActionResult> GetUsers([FromQuery] PaginationFilter filter)
         {
+            var route = Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
             var pagedData = await _context.Accounts
                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                .Take(validFilter.PageSize)
                .ToListAsync();
             var totalRecords = await _context.Accounts.CountAsync();
-            
-            return Ok( new PagedResponse<List<Accounts>>(pagedData,validFilter.PageNumber,validFilter.PageSize));
+            var pagedReponse = PaginationHelper.CreatePagedReponse<Accounts>(pagedData, validFilter, totalRecords, _uriService, route);
+            return Ok(pagedReponse);
         }
 
         [HttpGet("{id}")]
