@@ -25,7 +25,7 @@ namespace Marlin.sqlite.Controllers
 
         [HttpPost]
 
-        public async Task<ActionResult<List<OrderHeader>>> AddOrder(OrderHeader order)
+        public async Task<ActionResult<List<OrderHeaders>>> AddOrder(OrderHeaders order)
         {
             _context.OrderHeaders.Add(order);
             await _context.SaveChangesAsync();
@@ -45,7 +45,7 @@ namespace Marlin.sqlite.Controllers
                .Take(validFilter.PageSize)
                .ToListAsync();
             var totalRecords = await _context.OrderHeaders.CountAsync();
-            var pagedReponse = PaginationHelper.CreatePagedReponse<OrderHeader>(pagedData, validFilter, totalRecords, _uriService, route);
+            var pagedReponse = PaginationHelper.CreatePagedReponse<OrderHeaders>(pagedData, validFilter, totalRecords, _uriService, route);
             return Ok(pagedReponse);
         }
 
@@ -58,11 +58,11 @@ namespace Marlin.sqlite.Controllers
             {
                 return BadRequest("User not found.");
             }
-            return Ok(new Response<OrderHeader>(header));
+            return Ok(new Response<OrderHeaders>(header));
         }
 
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult<OrderHeader>> DeleteDetals(int id)
+        public async Task<ActionResult<OrderHeaders>> DeleteDetals(int id)
         {
             var result = await _context.OrderHeaders
             .FirstOrDefaultAsync(e => e.Id == id);
@@ -77,7 +77,7 @@ namespace Marlin.sqlite.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult<OrderHeader>> UpdateInvoice(OrderHeader item)
+        public async Task<ActionResult<OrderHeaders>> UpdateInvoice(OrderHeaders item)
         {
             var result = await _context.OrderHeaders
             .FirstOrDefaultAsync(e => e.Id == item.Id);

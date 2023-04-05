@@ -13,7 +13,7 @@ namespace Marlin.sqlite.Data
         }
 
         public DbSet<Accounts> Accounts => Set<Accounts>();
-        public DbSet<OrderHeader> OrderHeaders => Set<OrderHeader>();
+        public DbSet<OrderHeaders> OrderHeaders => Set<OrderHeaders>();
         public DbSet<Catalogues> Catalogues  => Set<Catalogues>();
         public DbSet<InvoiceDetail> InvoiceDetails => Set<InvoiceDetail>();
         public DbSet<InvoiceHeader> InvoiceHeaders => Set<InvoiceHeader>();
@@ -34,5 +34,8 @@ namespace Marlin.sqlite.Data
         public DbSet<UserPositions> UserPositions => Set<UserPositions>();
         public DbSet<Users> Users => Set<Users>();
         public DbSet<UserSettings> UserSettings => Set<UserSettings>();
+
+        public DbSet<OrderHeaders> HeadersData { get; set; }
+        public DbSet<OrderDetails> DetailsData { get; set; }
     }
 }
