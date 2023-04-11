@@ -1,0 +1,38 @@
+{
+  "Headers": [
+    {
+      "Id": 1,
+      "OrderID": "6b3472f0-be72-11ed-bd6c-5048494f4e43",
+      "SourceID": "6b3472f0-be72-11ed-bd6c-5048494f4e43",
+      "Date": "2023-03-09T23:23:50",
+      "Number": "SS00-000001",
+      "SenderID": "850f2978-7e13-11e5-9ab6-642737d08518",
+      "ReceiverID": "a099b88e-9fce-11e5-80c0-000c295e18a3",
+      "ShopID": "b248dfe2-bb82-11e5-80cc-005056a600d9",
+      "Amount": 861.4,
+      "StatusID": 861.4
+    }
+  ],
+  "Details": [
+    {
+      "Id": 1,
+      "OrderID": "6b3472f0-be72-11ed-bd6c-5048494f4e43",
+      "ProductID": "a723bb5a-9a76-11e5-80bc-000c295e18a3",
+      "Unit": 0.0,
+      "Quantity": 100.0,
+      "Price": 2.5,
+      "Amount": 250.0,
+      "ReservedQuantity": 34.0
+    },
+    {
+      "Id": 2,
+      "OrderID": "6b3472f0-be72-11ed-bd6c-5048494f4e43",
+      "ProductID": "5a9145a6-9a83-11e5-80bc-000c295e18a3",
+      "Unit": 0.0,
+      "Quantity": 200.0,
+      "Price": 2.4,
+      "Amount": 480.0,
+      "ReservedQuantity": 34.0
+    }
+  ]
+}
