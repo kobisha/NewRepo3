@@ -8,8 +8,8 @@
         public string SourceCode { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public string Barcode { get; set; }
-        public double Unit { get; set; }
+        
+        public string Unit { get; set; }
         public string Status { get; set; }
         public DateTime LastChangeDate { get; set; }
 

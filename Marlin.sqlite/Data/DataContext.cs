@@ -6,6 +6,7 @@ namespace Marlin.sqlite.Data
     public class DataContext : DbContext
     {
         
+        
 
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
@@ -34,6 +35,9 @@ namespace Marlin.sqlite.Data
         public DbSet<UserPositions> UserPositions => Set<UserPositions>();
         public DbSet<Users> Users => Set<Users>();
         public DbSet<UserSettings> UserSettings => Set<UserSettings>();
+        public DbSet<ProductsByCategories> ProductsByCategories => Set<ProductsByCategories>();
+        public DbSet<Barcodes> Barcodes => Set<Barcodes>();
+        public DbSet<ProductCategories> ProductCategories => Set<ProductCategories>();
 
         public DbSet<OrderHeaders> HeadersData { get; set; }
         public DbSet<OrderDetails> DetailsData { get; set; }

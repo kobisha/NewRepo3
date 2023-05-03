@@ -1,0 +1,3820 @@
+{
+    "json": [
+        {
+            "ProductID": "293c64f0-abef-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000344",
+            "Name": "მომსახურება",
+            "Description": "მომსახურება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-16 00:00:00"
+        },
+        {
+            "ProductID": "c2f34c88-d804-11eb-812c-0050569dcc8c",
+            "SourceCode": "00-00000480",
+            "Name": "არაყი მედოფი 40",
+            "Description": "არაყი მედოფი 40",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2021-06-28 00:00:00"
+        },
+        {
+            "ProductID": "ae5bdb6a-c5f2-11ec-8149-0050569dcc8c",
+            "SourceCode": "00-00000481",
+            "Name": "სერო",
+            "Description": "სერო",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2022-04-27 00:00:00"
+        },
+        {
+            "ProductID": "abe4088d-c5f5-11ec-8149-0050569dcc8c",
+            "SourceCode": "00-00000482",
+            "Name": "სერ",
+            "Description": "სერ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2022-04-27 00:00:00"
+        },
+        {
+            "ProductID": "74e0d2d9-699b-11ed-8155-0050569dcc8c",
+            "SourceCode": "00-00000486",
+            "Name": "სადრენაჟო სისტემის მონტაჟი",
+            "Description": "სადრენაჟო სისტემის მონტაჟი",
+            "Unit": "98c322e5-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2022-11-21 00:00:00"
+        },
+        {
+            "ProductID": "f822a920-699b-11ed-8155-0050569dcc8c",
+            "SourceCode": "00-00000487",
+            "Name": "სადრენაჟო სისტემა",
+            "Description": "სადრენაჟო სისტემა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2022-11-21 00:00:00"
+        },
+        {
+            "ProductID": "5f1edb3a-699c-11ed-8155-0050569dcc8c",
+            "SourceCode": "00-00000488",
+            "Name": "მილი 1500 მმ",
+            "Description": "მილი 1500 მმ",
+            "Unit": "91b47796-4c7d-11e5-8498-54b00f42d40b",
+            "Status": "",
+            "LastChangeDate": "2022-11-21 00:00:00"
+        },
+        {
+            "ProductID": "027d5489-b2a3-11ed-8159-0050569dcc8c",
+            "SourceCode": "00-00000492",
+            "Name": "სამუშაო",
+            "Description": "",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2023-02-22 00:00:00"
+        },
+        {
+            "ProductID": "c7cda279-868c-11e8-80f1-005056b569bf",
+            "SourceCode": "00-00000475",
+            "Name": "მაისური",
+            "Description": "მაისური",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-07-13 00:00:00"
+        },
+        {
+            "ProductID": "36cf8ee4-9a8a-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000074",
+            "Name": "ორცხობილა კრემით (5 x 50 გრ)",
+            "Description": "ორცხობილა კრემით (5 x 50 გრ)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "6a32f871-9a8a-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000075",
+            "Name": "ორცხობილა მარმელადით (5 x 50 გრ)",
+            "Description": "ორცხობილა მარმელადით (5 x 50 გრ)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "8a1ab3a1-9a8a-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000076",
+            "Name": "ორცხობილა მარწყვის ჯემით (5 x 50 გრ)",
+            "Description": "ორცხობილა მარწყვის ჯემით (5 x 50 გრ)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "d8285515-9a8b-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000077",
+            "Name": "ორცხობილა შოკოლადით (5 x 50 გრ)",
+            "Description": "ორცხობილა შოკოლადით (5 x 50 გრ)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "a723bb5a-9a76-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000040",
+            "Name": "თეთრი შოკოლადის ფილა/101008",
+            "Description": "თეთრი შოკოლადის ფილა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "ae2f0ab3-9a79-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000047",
+            "Name": "რძიანი შოკოლადი/102003",
+            "Description": "რძიანი შოკოლადი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "5a9145a6-9a83-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000063",
+            "Name": "რძიანი შოკოლადი თხილით/102001",
+            "Description": "რძიანი შოკოლადი თხილით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "f6c0a288-9a83-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000064",
+            "Name": "შოკოლადი კარამელით/102005",
+            "Description": "შოკოლადი კარამელით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "3c5ea9f1-9a84-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000065",
+            "Name": "შოკოლადი ქოქოსის შიგთავსით/102004",
+            "Description": "შოკოლადი ქოქოსის შიგთავსით/102004/102004",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "e7bfcc23-9a84-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000066",
+            "Name": "შოკოლადი ხილის ჟელეს შიგთავსით/102002",
+            "Description": "შოკოლადი ხილის ჟელეს შიგთავსით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "12af9566-9a85-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000067",
+            "Name": "შოკოლადის ფილა ალუბლის შიგთავსით",
+            "Description": "შოკოლადის ფილა ალუბლის შიგთავსით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "00161796-9a87-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000068",
+            "Name": "შოკოლადის ფილა თხილით",
+            "Description": "შოკოლადის ფილა თხილით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "49682f65-9a87-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000069",
+            "Name": "შოკოლადის ფილა თხილით და ქიშმიშით",
+            "Description": "შოკოლადის ფილა თხილით და ქიშმიშით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "762dce75-9a87-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000070",
+            "Name": "შოკოლადის ფილა ნაღებით",
+            "Description": "შოკოლადის ფილა ნაღებით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "9428a865-9a87-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000071",
+            "Name": "შოკოლადის ფილა ნუშით",
+            "Description": "შოკოლადის ფილა ნუშით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "9b09ff6a-9a88-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000072",
+            "Name": "შოკოლადის ფილა ქიშმიშით",
+            "Description": "შოკოლადის ფილა ქიშმიშით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "ba657ee5-9a88-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000073",
+            "Name": "შოკოლადის ფილა ყავის შიგთავსით",
+            "Description": "შოკოლადის ფილა ყავის შიგთავსით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "ee71b448-b96d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000098",
+            "Name": "შავი თხილიანი შოკოლადის ფილა",
+            "Description": "შავი თხილიანი შოკოლადის ფილა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "fcb15d7f-b58e-11e7-80d7-005056b569bf",
+            "SourceCode": "00-00000444",
+            "Name": "შოკოლადის ნაკრები",
+            "Description": "შოკოლადის ნაკრები",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-10-20 00:00:00"
+        },
+        {
+            "ProductID": "40115bd4-9a75-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000035",
+            "Name": "Levis - 724 HIGH RISE STRAIGHT",
+            "Description": "Levis - 724 HIGH RISE STRAIGHT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "5594dcd9-9a75-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000036",
+            "Name": "Levis - 724 HIGH RISE STRAIGHT",
+            "Description": "Levis - 724 HIGH RISE STRAIGHT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "62ed1250-9a76-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000038",
+            "Name": "Levis - 501 JEANS FOR WOMEN",
+            "Description": "Levis - 501 JEANS FOR WOMEN",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "8d946dc8-9a76-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000039",
+            "Name": "Mavi - STAR",
+            "Description": "Mavi - STAR",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "c07ef4d3-9a76-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000041",
+            "Name": "Mavi - VICTORIA",
+            "Description": "Mavi - VICTORIA",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "f1d29fd6-9a76-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000042",
+            "Name": "Mavi - CINDY",
+            "Description": "Mavi - CINDY",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "1afe093d-9a77-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000043",
+            "Name": "Mavi - CINDY",
+            "Description": "Mavi - CINDY",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "47b27b64-9a77-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000044",
+            "Name": "Wrangler - WALKER",
+            "Description": "Wrangler - WALKER",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "631541a3-9a77-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000045",
+            "Name": "Wrangler - WALKER",
+            "Description": "Wrangler - WALKER",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "7b98d35c-9a77-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000046",
+            "Name": "Wrangler - BARREL",
+            "Description": "Wrangler - BARREL",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "a8000b4d-c338-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000201",
+            "Name": "Wrangler - WANDERER",
+            "Description": "Wrangler - WANDERER",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-24 00:00:00"
+        },
+        {
+            "ProductID": "705cf80b-8022-11e8-80ef-005056b569bf",
+            "SourceCode": "00-00000472",
+            "Name": "Wrangler - WESTWARD",
+            "Description": "Wrangler - WESTWARD",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-07-05 00:00:00"
+        },
+        {
+            "ProductID": "7b1c72d2-8022-11e8-80ef-005056b569bf",
+            "SourceCode": "00-00000473",
+            "Name": "Wrangler - WILD WEST",
+            "Description": "Wrangler - WILD WEST",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-07-05 00:00:00"
+        },
+        {
+            "ProductID": "9505d510-9a75-11e5-80bc-000c295e18a3",
+            "SourceCode": "12345      ",
+            "Name": "Wrangler - HIGH SKINNY",
+            "Description": "Wrangler - HIGH SKINNY",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "0f20f8d4-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000048",
+            "Name": "დაფქული ყავა 150 გრ",
+            "Description": "დაფქული ყავა 150 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "2e857b63-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000049",
+            "Name": "ყავა თუნუქის ქილაში 150 გრ",
+            "Description": "ყავა თუნუქის ქილაში 150 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "4ab2469f-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000050",
+            "Name": "ყავა თუნუქის ქილაში 100 გრ",
+            "Description": "ყავა თუნუქის ქილაში 100 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "6a919c30-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000051",
+            "Name": "ყავა თუნუქის ქილაში 200 გრ",
+            "Description": "ყავა თუნუქის ქილაში 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "85d8c356-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000052",
+            "Name": "ყავა მინის ქილაში 150 გრ",
+            "Description": "ყავა მინის ქილაში 150 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "9ae266f4-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000053",
+            "Name": "ყავა მინის ქილაში 250 გრ",
+            "Description": "ყავა მინის ქილაში 250 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "b3e4c60a-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000054",
+            "Name": "ხსნადი ყავა (10 x 18 გრ)",
+            "Description": "ხსნადი ყავა (10 x 18 გრ)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "caa016ec-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000055",
+            "Name": "ხსნადი ყავა 3x1 (10 x 18 გრ)\u0009",
+            "Description": "ხსნადი ყავა 3x1 (10 x 18 გრ)\u0009",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "ddb81f72-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000056",
+            "Name": "ხსნადი ყავა გრანულებით 100 გრ",
+            "Description": "ხსნადი ყავა გრანულებით 100 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "0cf07211-9a7f-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000058",
+            "Name": "ხსნადი ყავა რძით (10 x 18 გრ)",
+            "Description": "ხსნადი ყავა რძით (10 x 18 გრ)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "6f23f399-9a7f-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000059",
+            "Name": "არაბული მწვანე ჩაი",
+            "Description": "არაბული მწვანე ჩაი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "8487ee58-9a7f-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000060",
+            "Name": "არაბული შავი ჩაი\u0009",
+            "Description": "არაბული შავი ჩაი\u0009",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "b2640887-9a7f-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000062",
+            "Name": "ჩაი ჟასმინის არომატით",
+            "Description": "ჩაი ჟასმინის არომატით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "5bf0ba4f-7fa2-11e8-80ef-005056b569bf",
+            "SourceCode": "00-00000471",
+            "Name": "ჩაი ფორთოხლის არომატით",
+            "Description": "ჩაი ფორთოხლის არომატით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-07-04 00:00:00"
+        },
+        {
+            "ProductID": "73165907-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000019",
+            "Name": "სარეცხი ფხვნილი ალპური 450 გრ",
+            "Description": "სარეცხი ფხვნილი ალპური 450 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "8cf0f273-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000020",
+            "Name": "სარეცხი ფხვნილი ალპური 600 გრ",
+            "Description": "სარეცხი ფხვნილი ალპური 600 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "a6ee0b43-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000021",
+            "Name": "სარეცხი ფხვნილი აქტიური 450 გრ",
+            "Description": "სარეცხი ფხვნილი აქტიური 450 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "b4f6b326-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000022",
+            "Name": "სარეცხი ფხვნილი აქტიური 600 გრ",
+            "Description": "",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "c5ad6d46-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000023",
+            "Name": "სარეცხი ფხვნილი ლიმონი 450 გრ",
+            "Description": "სარეცხი ფხვნილი ლიმონი 450 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "d8a04d6a-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000024",
+            "Name": "სარეცხი ფხვნილი ლიმონი 600 გრ",
+            "Description": "სარეცხი ფხვნილი ლიმონი 600 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "f7515ead-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000026",
+            "Name": "სარეცხი ფხვნილი ფერადი 600 გრ",
+            "Description": "სარეცხი ფხვნილი ფერადი 600 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "70cb4cb2-9a74-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000027",
+            "Name": "კონდენციონერი აზიური თმისათვის 200 მლ",
+            "Description": "კონდენციონერი აზიური თმისათვის 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "85a4149b-9a74-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000028",
+            "Name": "კონდენციონერი კლასიკი 200 მლ",
+            "Description": "კონდენციონერი კლასიკი 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "b6269ace-9a74-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000030",
+            "Name": "კონდენციონერი ციტრუსი 200 მლ",
+            "Description": "კონდენციონერი ციტრუსი 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "d0c3ec6e-9a74-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000031",
+            "Name": "შამპუნი აზიური თმისათვის 200 მლ",
+            "Description": "შამპუნი აზიური თმისათვის 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "e95f37fb-9a74-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000032",
+            "Name": "შამპუნი კლასიკი 200 მლ",
+            "Description": "შამპუნი კლასიკი 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "fcf2c373-9a74-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000033",
+            "Name": "შამპუნი შაღებილი თმისათვის 200 მლ",
+            "Description": "შამპუნი შაღებილი თმისათვის 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "0cf5860b-9a75-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000034",
+            "Name": "შამპუნი ციტრუსი 200 მლ",
+            "Description": "შამპუნი ციტრუსი 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "326f9e0c-b938-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000093",
+            "Name": "პლანშეტი YARVIK TAB07-200",
+            "Description": "პლანშეტი YARVIK TAB07-200",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "5a153b60-b938-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000094",
+            "Name": "პლანშეტი HP F4X29EA SLATE 10 3603ER",
+            "Description": "პლანშეტი HP F4X29EA SLATE 10 3603ER",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "7b9a323c-b938-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000095",
+            "Name": "პლანშეტი LENOVO 59409685 A7600  10.1",
+            "Description": "პლანშეტი LENOVO 59409685 A7600  10.1",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "9f646634-b938-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000096",
+            "Name": "პლანშეტი samsung N705 WHITE",
+            "Description": "პლანშეტი samsung N705 WHITE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "b9accdb3-b938-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000097",
+            "Name": "პლანშეტი Samsung  T231 EBONY BLACK",
+            "Description": "პლანშეტი Samsung  T231 EBONY BLACK",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "e5311d50-b92b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000078",
+            "Name": "ნოუთბუქი Dell Inspiron N5110  Black glare",
+            "Description": "ნოუთბუქი Dell Inspiron N5110  Black glare",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "8b8aa8bf-b92c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000079",
+            "Name": "ნოუთბუქი HP F5B65EA SPECTRE 13-3010ER",
+            "Description": "ნოუთბუქი HP F5B65EA SPECTRE 13-3010ER",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "eae84789-b92c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000080",
+            "Name": "ნოუთბუქი EMACHINE EME442-162G25Mnnk",
+            "Description": "ნოუთბუქი EMACHINE EME442-162G25Mnnk",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "4c2e0ca6-b92d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000081",
+            "Name": "ნოუთბუქი lenovo B590A/59-390831",
+            "Description": "ნოუთბუქი lenovo B590A/59-390831",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "952b737b-b92d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000082",
+            "Name": "ნოუთბუქი  Samsung  NP-R525-JV05",
+            "Description": "ნოუთბუქი  Samsung  NP-R525-JV05",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "b30c8810-b930-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000083",
+            "Name": "ნოუთბუქი Toshiba L630-14M P6100",
+            "Description": "ნოუთბუქი Toshiba L630-14M P6100",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "913416cb-b9b6-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000099",
+            "Name": "პროცესორი acme E5700GT220",
+            "Description": "პროცესორი acme E5700GT220",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "b10799a9-b9b6-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000100",
+            "Name": "პროცესორი acme i3 540GT220",
+            "Description": "პროცესორი acme i3 540GT220",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "42cb5a1c-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000101",
+            "Name": "პროცესორი ALTA i3 550",
+            "Description": "პროცესორი ALTA i3 550",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "58053b83-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000102",
+            "Name": "პროცესორი COMTEK COMTEQ A500-01",
+            "Description": "პროცესორი COMTEK COMTEQ A500-01",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "6ade3703-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000103",
+            "Name": "პროცესორი  HP 500B MT E5800 320G 8 PC XP036EA",
+            "Description": "პროცესორი  HP 500B MT E5800 320G 8 PC XP036EA",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "7a438842-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000104",
+            "Name": "პროცესორი LAB AM-S145/2GB/320GB/GF6150",
+            "Description": "პროცესორი LAB AM-S145/2GB/320GB/GF6150",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "90fd2090-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000105",
+            "Name": "პროცესორი LINKS A4/4gb/500gb/1gb",
+            "Description": "პროცესორი LINKS A4/4gb/500gb/1gb",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "ab660dc5-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000106",
+            "Name": "პროცესორი OK G1620/4GB/500GB/210 1GB",
+            "Description": "პროცესორი OK G1620/4GB/500GB/210 1GB",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "e1a77646-b9cd-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000127",
+            "Name": "კომპიუტერი  პერსონალური  LENOVO H50-55",
+            "Description": "კომპიუტერი  პერსონალური  LENOVO H50-55",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-13 00:00:00"
+        },
+        {
+            "ProductID": "97c6cc9e-6efc-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000462",
+            "Name": "სისტემური ბლოკი ულტრა i9",
+            "Description": "სისტემური ბლოკი ულტრა i9",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-13 00:00:00"
+        },
+        {
+            "ProductID": "a8a71e64-6efc-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000463",
+            "Name": "მონიტორი სამსუნგი 21\"",
+            "Description": "მონიტორი სამსუნგი 21\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-13 00:00:00"
+        },
+        {
+            "ProductID": "bd058b67-6efc-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000464",
+            "Name": "კლავიატურა Dell",
+            "Description": "კლავიატურა Dell",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-13 00:00:00"
+        },
+        {
+            "ProductID": "ccc7c004-6efc-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000465",
+            "Name": "მაუსი Asus",
+            "Description": "მაუსი Asus",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-13 00:00:00"
+        },
+        {
+            "ProductID": "0626edb4-6efd-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000466",
+            "Name": "პერსონალური კომპიუტერი Cyber",
+            "Description": "პერსონალური კომპიუტერი Cyber",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-13 00:00:00"
+        },
+        {
+            "ProductID": "c5ee3d33-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000116",
+            "Name": "ფოტო აპარატი Canon 2764B058 D-SLR EOS 5DII UKR",
+            "Description": "ფოტო აპარატი Canon 2764B058 D-SLR EOS 5DII UKR",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "df8652d6-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000117",
+            "Name": "ფოტო აპარატი  EOS 600D EF-S 18-55 IS II, 18 MP",
+            "Description": "ფოტო აპარატი  EOS 600D EF-S 18-55 IS II, 18 MP",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "f7bab383-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000118",
+            "Name": "ფოტო აპარატი Canon IXUS 510HS WHITE 6164B008AA",
+            "Description": "ფოტო აპარატი Canon IXUS 510HS WHITE 6164B008AA",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "07c08595-b9b9-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000119",
+            "Name": "ფოტო აპარატი PANASONIC DMC FP1EE-K",
+            "Description": "ფოტო აპარატი PANASONIC DMC FP1EE-K",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "175cbf63-b9b9-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000120",
+            "Name": "ფოტო აპარატი EC-DV300ZBPRRU",
+            "Description": "ფოტო აპარატი EC-DV300ZBPRRU",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "2b1808b6-b9b9-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000121",
+            "Name": "ფოტო აპარატი SAMSUNG ES80ZZBPBRU",
+            "Description": "ფოტო აპარატი SAMSUNG ES80ZZBPBRU",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "587f64be-b9b9-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000122",
+            "Name": "ფოტო აპარატი Sony  W510 Black",
+            "Description": "ფოტო აპარატი Sony  W510 Black",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "679e7d73-b9b9-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000123",
+            "Name": "ფოტო აპარატი Sony  W620 RED",
+            "Description": "ფოტო აპარატი Sony  W620 RED",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "c77d7189-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000107",
+            "Name": "ტელევიზორი VESTEL 100671962 LCD 32",
+            "Description": "ტელევიზორი VESTEL 100671962 LCD 32",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "d4d56256-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000108",
+            "Name": "ტელევიზორი LCD AEG CTV2204",
+            "Description": "ტელევიზორი LCD AEG CTV2204",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "eb175960-b9b7-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000109",
+            "Name": "ტელევიზორი AOC LE19K097",
+            "Description": "ტელევიზორი AOC LE19K097",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "0415ece7-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000110",
+            "Name": "ტელევიზორი Hisense LCD24V88P",
+            "Description": "ტელევიზორი Hisense LCD24V88P",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "17643966-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000111",
+            "Name": "ტელევიზორი LG 21X20",
+            "Description": "ტელევიზორი LG 21X20",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "34c0383b-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000112",
+            "Name": "ტელევიზორი ORION  LED TV (piano black) LED 3258",
+            "Description": "ტელევიზორი ORION  LED TV (piano black) LED 3258",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "4505cda4-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000113",
+            "Name": "ტელევიზორი LCD Panasonic TX-LR32X20",
+            "Description": "ტელევიზორი LCD Panasonic TX-LR32X20",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "56fd1148-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000114",
+            "Name": "ტელევიზორი CTR Samsung 21Z33",
+            "Description": "ტელევიზორი CTR Samsung 21Z33",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "874f2885-b9b8-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000115",
+            "Name": "თხევადკრისტალური ტელევიზორი Samsung LE32D450",
+            "Description": "თხევადკრისტალური ტელევიზორი Samsung LE32D450",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "48d0860f-b931-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000084",
+            "Name": "მაცივარი BF AEG S54000KMX0",
+            "Description": "მაცივარი BF AEG S54000KMX0",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "792b3a52-b931-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000085",
+            "Name": "მაცივარი BF ჩასაშენებელი AEG SCS951800S",
+            "Description": "მაცივარი BF ჩასაშენებელი AEG SCS951800S",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "ab55364d-b931-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000086",
+            "Name": "მაცივარი FRESH FDF228S",
+            "Description": "მაცივარი FRESH FDF228S",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "c5c5ced0-b931-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000087",
+            "Name": "მაცივარი Hotpoint-Ariston ENBLH 19221 FW",
+            "Description": "მაცივარი Hotpoint-Ariston ENBLH 19221 FW",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "e543ca72-b931-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000088",
+            "Name": "მაცივარი INDESIT SB 15020",
+            "Description": "მაცივარი INDESIT SB 15020",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "83a6de58-b937-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000089",
+            "Name": "მაცივარი Samsung RL34SCSW1",
+            "Description": "მაცივარი Samsung RL34SCSW1",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "97444500-b937-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000090",
+            "Name": "მაცივარი SBS Samsung RS21HKLMR",
+            "Description": "მაცივარი SBS Samsung RS21HKLMR",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "bda3a399-b937-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000091",
+            "Name": "მაცივარი TF Toshiba GR-R28 UT CZ",
+            "Description": "მაცივარი TF Toshiba GR-R28 UT CZ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "0b024d97-b938-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000092",
+            "Name": "მაცივარი VESTEL GT145CE",
+            "Description": "მაცივარი VESTEL GT145CE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "4bf55ad7-d9aa-11e7-80d8-005056b569bf",
+            "SourceCode": "00-00000447",
+            "Name": "თხევადი საპონი მარწყვი 500 მლ",
+            "Description": "თხევადი საპონი მარწყვი 500 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-12-05 00:00:00"
+        },
+        {
+            "ProductID": "55e2ffa4-d9aa-11e7-80d8-005056b569bf",
+            "SourceCode": "00-00000448",
+            "Name": "თხევადი საპონი ალოე ვერა 500 მლ",
+            "Description": "თხევადი საპონი ალოე ვერა 500 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-12-05 00:00:00"
+        },
+        {
+            "ProductID": "5f013605-d9aa-11e7-80d8-005056b569bf",
+            "SourceCode": "00-00000449",
+            "Name": "თხევადი საპონი ატამი 500 მლ",
+            "Description": "თხევადი საპონი ატამი 500 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-12-05 00:00:00"
+        },
+        {
+            "ProductID": "6b408ad4-d9aa-11e7-80d8-005056b569bf",
+            "SourceCode": "00-00000450",
+            "Name": "თხევადი საპონი ალოე ვერა 200 მლ",
+            "Description": "თხევადი საპონი ალოე ვერა 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-12-05 00:00:00"
+        },
+        {
+            "ProductID": "4ba0cb6d-ac10-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000345",
+            "Name": "პლასტმასის მილი",
+            "Description": "პლასტმასის მილი",
+            "Unit": "91b47796-4c7d-11e5-8498-54b00f42d40b",
+            "Status": "",
+            "LastChangeDate": "2016-11-16 00:00:00"
+        },
+        {
+            "ProductID": "70a3feba-ac10-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000346",
+            "Name": "პროპილენი",
+            "Description": "პროპილენი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-16 00:00:00"
+        },
+        {
+            "ProductID": "7fa77bbc-ac10-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000347",
+            "Name": "საღებავი (წარმოება)",
+            "Description": "საღებავი (წარმოება)",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-16 00:00:00"
+        },
+        {
+            "ProductID": "948b7688-ac10-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000348",
+            "Name": "რეზინის შუასადებები",
+            "Description": "რეზინის შუასადებები",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-16 00:00:00"
+        },
+        {
+            "ProductID": "3ffa25b9-ac2e-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000349",
+            "Name": "შესაფუთი ცელოფანი",
+            "Description": "შესაფუთი ცელოფანი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-16 00:00:00"
+        },
+        {
+            "ProductID": "3b8bb083-ad90-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000350",
+            "Name": "ფიცარი",
+            "Description": "რეზინის შუასადებები",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-18 00:00:00"
+        },
+        {
+            "ProductID": "482cd6cd-ad90-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000351",
+            "Name": "ლურსმანი",
+            "Description": "რეზინის შუასადებები",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-18 00:00:00"
+        },
+        {
+            "ProductID": "52267461-ad90-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000352",
+            "Name": "კაფელი",
+            "Description": "რეზინის შუასადებები",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-18 00:00:00"
+        },
+        {
+            "ProductID": "859feee0-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000237",
+            "Name": "სოსისის გარსაცმი კ F21",
+            "Description": "სოსისის გარსაცმი კ F21",
+            "Unit": "91b47796-4c7d-11e5-8498-54b00f42d40b",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "f76f1846-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000230",
+            "Name": "შაშხი ღორის _ საბოლოო პროდუქცია",
+            "Description": "შაშხი ღორის _ საბოლოო პროდუქცია",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "f76f1847-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000231",
+            "Name": "სოსისი _ საბოლოო პროდუქცია",
+            "Description": "სოსისი _ საბოლოო პროდუქცია",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "0009651b-2fde-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000432",
+            "Name": "მაგიდა",
+            "Description": "მაგიდა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-05-03 00:00:00"
+        },
+        {
+            "ProductID": "7c4b9f91-3c7e-11e7-80ce-005056b569bf",
+            "SourceCode": "00-00000437",
+            "Name": "შუალედური ბალასტი",
+            "Description": "შუალედური ბალასტი",
+            "Unit": "91b47797-4c7d-11e5-8498-54b00f42d40b",
+            "Status": "",
+            "LastChangeDate": "2017-05-19 00:00:00"
+        },
+        {
+            "ProductID": "430fcc35-5261-11e7-80d0-005056b569bf",
+            "SourceCode": "00-00000440",
+            "Name": "მომსახურება სამუშაო",
+            "Description": "მომსახურება სამუშაო",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-06-16 00:00:00"
+        },
+        {
+            "ProductID": "4b4d8ea7-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000232",
+            "Name": "სოსისი _ ფარში",
+            "Description": "სოსისი _ ფარში",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "4b4d8ea8-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000233",
+            "Name": "სოსისი _ გარსაცმში",
+            "Description": "სოსისი _ გარსაცმში",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "4b4d8ea9-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000234",
+            "Name": "სოსისი _ თერმო",
+            "Description": "სოსისი _ თერმო",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "4b4d8eaa-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000235",
+            "Name": "შაშხი ღორის _ დაშპრიცვა",
+            "Description": "შაშხი ღორის _ დაშპრიცვა",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "4b4d8eab-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000236",
+            "Name": "შაშხი ღორის _ თერმო",
+            "Description": "შაშხი ღორის _ თერმო",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "a86e99fb-2fe6-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000434",
+            "Name": "დამუშავებული ქვის ფილა",
+            "Description": "დამუშავებული ქვის ფილა",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-05-03 00:00:00"
+        },
+        {
+            "ProductID": "19df7ce5-6e2c-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000460",
+            "Name": "ცომი (წარმოება)",
+            "Description": "ცომი (წარმოება)",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-12 00:00:00"
+        },
+        {
+            "ProductID": "267bb886-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000211",
+            "Name": "ღორის კისერი (შეიკა)",
+            "Description": "ღორის კისერი (შეიკა)",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442e6-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000212",
+            "Name": "ნატრიუმის ნიტრიტი",
+            "Description": "ნატრიუმის ნიტრიტი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442e7-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000213",
+            "Name": "მარილი იოდიზირებული",
+            "Description": "მარილი იოდიზირებული",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442e8-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000214",
+            "Name": "ნიორი გ",
+            "Description": "ნიორი გ",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442ea-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000216",
+            "Name": "ევრო კონსერვანტი",
+            "Description": "ევრო კონსერვანტი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442eb-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000217",
+            "Name": "ბიფფლაუერი",
+            "Description": "ბიფფლაუერი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442ec-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000218",
+            "Name": "ვჰ.შინკო ჰამ 60/80",
+            "Description": "ვჰ.შინკო ჰამ 60/80",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442ed-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000219",
+            "Name": "სანელებელი 42-5022 კორექტორი",
+            "Description": "სანელებელი 42-5022 კორექტორი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442ee-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000220",
+            "Name": "სახამებელი",
+            "Description": "სახამებელი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442ef-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000221",
+            "Name": "საქ.ხორცის განძარღვული ნაწილის ემულსია",
+            "Description": "საქ.ხორცის განძარღვული ნაწილის ემულსია",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442f0-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000222",
+            "Name": "გაყ. ღორის ქონი (იაფ) ",
+            "Description": "გაყ. ღორის ქონი (იაფ) ",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442f1-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000223",
+            "Name": "გაყ. ღორის ხორცის ტრიმინგი",
+            "Description": "გაყ. ღორის ხორცის ტრიმინგი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442f2-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000224",
+            "Name": "წიწაკა წითელი",
+            "Description": "წიწაკა წითელი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442f3-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000225",
+            "Name": "02059 Flex/0 კომბო სოსისი 4(132985)",
+            "Description": "02059 Flex/0 კომბო სოსისი 4(132985)",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442f4-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000226",
+            "Name": "ტიროლური",
+            "Description": "ტიროლური",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442f5-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000227",
+            "Name": "რაფს კოლორი",
+            "Description": "რაფს კოლორი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "5c3442f6-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000228",
+            "Name": "გლუტამატი",
+            "Description": "გლუტამატი",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "6265cf1f-8171-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000229",
+            "Name": "ცხოველური ცილა ვეპრო-გელ 100    PC",
+            "Description": "ცხოველური ცილა ვეპრო-გელ 100    PC",
+            "Unit": "98c322e4-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "0a542166-2b3f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000427",
+            "Name": "გორგოლაჭი",
+            "Description": "გორგოლაჭი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "1ba6d6a1-2b3f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000428",
+            "Name": "სამაგრი",
+            "Description": "სამაგრი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "392ceace-2b3f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000429",
+            "Name": "ჭანჭიკი",
+            "Description": "ჭანჭიკი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "cfd958ec-2b3f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000430",
+            "Name": "ნაჭერი",
+            "Description": "ნაჭერი",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "23798bbb-2b40-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000431",
+            "Name": "ღრუბელი",
+            "Description": "ღრუბელი",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "ab04d399-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000238",
+            "Name": "სინკარი",
+            "Description": "სინკარი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "b65a7f81-8172-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000239",
+            "Name": "აგური",
+            "Description": "აგური",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-23 00:00:00"
+        },
+        {
+            "ProductID": "f79cae14-8328-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000241",
+            "Name": "ნამცხვარი \"ეკლერი\"",
+            "Description": "ნამცხვარი \"ეკლერი\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-25 00:00:00"
+        },
+        {
+            "ProductID": "05efb4ef-8329-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000242",
+            "Name": "ნამცხვარი \"ტირამისუ\"",
+            "Description": "ნამცხვარი \"ტირამისუ\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-25 00:00:00"
+        },
+        {
+            "ProductID": "446f390e-8340-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000243",
+            "Name": "ნამცხვარი \"ბრაუნი\"",
+            "Description": "ნამცხვარი \"ბრაუნი\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-25 00:00:00"
+        },
+        {
+            "ProductID": "de76d1a5-83b3-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000245",
+            "Name": "ნამცხვარი \"ჩიზქეიქი\"",
+            "Description": "ნამცხვარი \"ჩიზქეიქი\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "b252db7c-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000249",
+            "Name": "ტორტი \"შავი ტყე\"",
+            "Description": "ტორტი \"შავი ტყე\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "c18d288b-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000250",
+            "Name": "ხილის ტორტი",
+            "Description": "ხილის ტორტი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "ce651573-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000251",
+            "Name": "შოკოლადის კრუასანი",
+            "Description": "შოკოლადის კრუასანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "d74c7529-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000252",
+            "Name": "ფუნთუშა ცეზამით",
+            "Description": "ფუნთუშა ცეზამით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "e33ab923-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000253",
+            "Name": "შვრიის ნამცხვარი 300 გრ",
+            "Description": "შვრიის ნამცხვარი 300 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "ec1fb687-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000254",
+            "Name": "ხაჭოს ნამცხვარი 300 გრ",
+            "Description": "ხაჭოს ნამცხვარი 300 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "f5346363-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000255",
+            "Name": "ტორტი \"ნუგა\"",
+            "Description": "ტორტი \"ნუგა\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "fd727a84-83b5-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000256",
+            "Name": "კექსი ნიგვზით",
+            "Description": "კექსი ნიგვზით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "0623038f-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000257",
+            "Name": "თაფლკვერი ჯემით",
+            "Description": "თაფლკვერი ჯემით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "40a2b0e5-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000258",
+            "Name": "ტორტი \"კაპუჩინო\"",
+            "Description": "ტორტი \"კაპუჩინო\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "4826ce85-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000259",
+            "Name": "პეროგი მარწყვის ჯემით",
+            "Description": "პეროგი მარწყვის ჯემით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "52e3e284-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000260",
+            "Name": "მაფინი ნიგვზით",
+            "Description": "მაფინი ნიგვზით",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "fd0a6dd6-9723-11ed-8155-0050569dcc8c",
+            "SourceCode": "00-00000489",
+            "Name": "შოკოლადი",
+            "Description": "შოკოლადი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2023-01-18 00:00:00"
+        },
+        {
+            "ProductID": "7075fb12-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000261",
+            "Name": "შაქარი თეთრი 1კგ",
+            "Description": "შაქარი თეთრი 1კგ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "7b75d188-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000262",
+            "Name": "შაქარი ნატეხი 0,5კგ",
+            "Description": "შაქარი ნატეხი 0,5კგ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "89c4136e-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000263",
+            "Name": "ფქვილი 0,5 კგ",
+            "Description": "ფქვილი 0,5 კგ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "9958faf6-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000264",
+            "Name": "სოდა 0,5 კგ",
+            "Description": "სოდა 0,5 კგ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "a3849dd1-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000265",
+            "Name": "სუფრის მარილი 200 გრ",
+            "Description": "სუფრის მარილი 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "ad429362-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000266",
+            "Name": "მარილი 0,5 კგ",
+            "Description": "მარილი 0,5 კგ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "b509738e-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000267",
+            "Name": "ბრინჯი თეთრი 700 გრ",
+            "Description": "ბრინჯი თეთრი 700 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "bcb3b769-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000268",
+            "Name": "მაიონეზი კლასიკური 250 მლ",
+            "Description": "მაიონეზი კლასიკური 250 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "c49bf8ab-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000269",
+            "Name": "მაიონეზი სამარხვო 250 მლ",
+            "Description": "მაიონეზი სამარხვო 250 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "ccbb10d6-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000270",
+            "Name": "კეტჩუპი ცხარე 250 მლ",
+            "Description": "კეტჩუპი ცხარე 250 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "d5b0bed0-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000271",
+            "Name": "კეტჩუპი 400 მლ",
+            "Description": "კეტჩუპი 400 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "dd66ee78-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000272",
+            "Name": "მაკარონი \"პენე რიგატე\" 500 გრ",
+            "Description": "მაკარონი \"პენე რიგატე\" 500 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "e521e29f-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000273",
+            "Name": "მაკარონი \"სპაგეტი\" 500 გრ",
+            "Description": "მაკარონი \"სპაგეტი\" 500 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "d5e1fdd9-6e2b-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000459",
+            "Name": "კვერცხი კუმისი",
+            "Description": "კვერცხი კუმისი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-12 00:00:00"
+        },
+        {
+            "ProductID": "340b645b-6e2c-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000461",
+            "Name": "ფქვილი 1 კგ",
+            "Description": "ფქვილი 1 კგ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-12 00:00:00"
+        },
+        {
+            "ProductID": "4b380117-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000282",
+            "Name": "ზღვის პროდუქტების კოქტეილი 500 გრ",
+            "Description": "ზღვის პროდუქტების კოქტეილი 500 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "546e0f61-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000283",
+            "Name": "პელმენი ხორცის 500 გრ",
+            "Description": "პელმენი ხორცის 500 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "5c34ef8a-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000284",
+            "Name": "პელმენი ყველის 500 გრ",
+            "Description": "პელმენი ყველის 500 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "6486197c-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000285",
+            "Name": "სამეფო კრევეტები 500 გრ",
+            "Description": "სამეფო კრევეტები 500 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "6db03b9a-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000286",
+            "Name": "მიდიები 500 გრ",
+            "Description": "მიდიები 500 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "80e701d8-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000287",
+            "Name": "აირანი 100 მლ",
+            "Description": "აირანი 100 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "8de514c5-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000288",
+            "Name": "იოგურტი ატმის 100 მლ",
+            "Description": "იოგურტი ატმის 100 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "996a706c-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000289",
+            "Name": "იოგურტი მარწყვის 100 მლ",
+            "Description": "იოგურტი მარწყვის 100 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "b205b65d-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000290",
+            "Name": "კეფირი 200 მლ",
+            "Description": "კეფირი 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "bbabd421-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000291",
+            "Name": "შედედებული რძე 200 მლ",
+            "Description": "შედედებული რძე 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "c5a7c79f-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000292",
+            "Name": "ნაღები 10 მლ",
+            "Description": "ნაღები 10 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "cef34b2b-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000293",
+            "Name": "ნაღები 200 მლ",
+            "Description": "ნაღები 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "defd0724-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000294",
+            "Name": "ნაღების კარაქი 200 გრ",
+            "Description": "ნაღების კარაქი 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "e894d6aa-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000295",
+            "Name": "არაჟანი 100 მლ",
+            "Description": "არაჟანი 100 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "f14c86cd-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000296",
+            "Name": "არაჟანი 200 მლ",
+            "Description": "არაჟანი 200 მლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "f8bff3e0-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000298",
+            "Name": "ყველი \"მასკარპონე\" 200 გრ",
+            "Description": "ყველი \"მასკარპონე\" 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "058bf4eb-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000299",
+            "Name": "ყველი \"გორგონძოლა\" 200 გრ",
+            "Description": "ყველი \"გორგონძოლა\" 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "0d743630-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000300",
+            "Name": "ყველი \"პარმეზანი\" 100 გრ",
+            "Description": "ყველი \"პარმეზანი\" 100 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "17b54e9a-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000301",
+            "Name": "ყველი \"ჩედარი\" 200 გრ",
+            "Description": "ყველი \"ჩედარი\" 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "214abbbd-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000302",
+            "Name": "ყველი \"მოცარელა\" 200 გრ",
+            "Description": "ყველი \"მოცარელა\" 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "297a8481-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000303",
+            "Name": "ხაჭო, 0% ცხიმი 100 გრ",
+            "Description": "ხაჭო, 0% ცხიმი 100 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "315477c8-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000304",
+            "Name": "ხაჭო, 6% ცხიმი 100 გრ",
+            "Description": "ხაჭო, 6% ცხიმი 100 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "b0579ba4-6e2a-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000455",
+            "Name": "ყველი \"იმერული\" 200 გრ",
+            "Description": "ყველი \"იმერული\" 200 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-12 00:00:00"
+        },
+        {
+            "ProductID": "ae13709c-6e2b-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000458",
+            "Name": "რძე ცხიმიანი",
+            "Description": "რძე ცხიმიანი",
+            "Unit": "f8b42a84-dc1d-11e7-80d9-005056b569bf",
+            "Status": "",
+            "LastChangeDate": "2018-06-12 00:00:00"
+        },
+        {
+            "ProductID": "43685c16-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000305",
+            "Name": "სიგარეტი DAVIDOFF Slims Gold",
+            "Description": "სიგარეტი DAVIDOFF Slims Gold",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "4c2995c0-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000306",
+            "Name": "სიგარეტი DAVIDOFF White",
+            "Description": "სიგარეტი DAVIDOFF White",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "54929790-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000307",
+            "Name": "სიგარეტი DAVIDOFF Classic",
+            "Description": "სიგარეტი DAVIDOFF Classic",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "5b284794-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000308",
+            "Name": "სიგარეტი KENT HDi Silver",
+            "Description": "სიგარეტი KENT HDi Silver",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "622e0756-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000309",
+            "Name": "სიგარეტი CHESTERFIELD Blue",
+            "Description": "სიგარეტი CHESTERFIELD Blue",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "69aafdcc-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000310",
+            "Name": "სიგარეტი CAMEL Black",
+            "Description": "სიგარეტი CAMEL Black",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "70de0a8f-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000311",
+            "Name": "სიგარეტი CAMEL Blue",
+            "Description": "სიგარეტი CAMEL Blue",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "77b67d37-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000312",
+            "Name": "სიგარეტი CAMEL Silver",
+            "Description": "სიგარეტი CAMEL Silver",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "7fdcbc83-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000313",
+            "Name": "სიგარეტი MARLBORO Lignt",
+            "Description": "სიგარეტი MARLBORO Lignt",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "8d461a54-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000314",
+            "Name": "სიგარეტი MARLBORO Touch",
+            "Description": "სიგარეტი MARLBORO Touch",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "94d3c17b-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000315",
+            "Name": "სიგარეტი MARLBORO Filter Plus",
+            "Description": "სიგარეტი MARLBORO Filter Plus",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "9b670f24-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000316",
+            "Name": "სიგარეტი PARLIAMENT Super Slims",
+            "Description": "სიგარეტი PARLIAMENT Super Slims",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "a4a1e21a-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000317",
+            "Name": "სიგარეტი PARLIAMENT Silver Blue",
+            "Description": "სიგარეტი PARLIAMENT Silver Blue",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "acc0fa33-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000318",
+            "Name": "სიგარეტი PARLIAMENT Aqua Blue",
+            "Description": "სიგარეტი PARLIAMENT Aqua Blue",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "b3d9ccde-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000319",
+            "Name": "სიგარეტი WINSTON Silver",
+            "Description": "სიგარეტი WINSTON Silver",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "bad6031d-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000320",
+            "Name": "სიგარეტი WINSTON Classic",
+            "Description": "სიგარეტი WINSTON Classic",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "c18ab1ff-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000321",
+            "Name": "სიგარეტი WINSTON XS Blue",
+            "Description": "სიგარეტი WINSTON XS Blue",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "e4f4814f-83b9-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000327",
+            "Name": "Mavi - MAVi SWEATSHIRT",
+            "Description": "Mavi - MAVi SWEATSHIRT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "6f9db34b-83ba-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000329",
+            "Name": "Mavi - Jacket",
+            "Description": "Mavi - Jacket",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "788c3a1f-83ba-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000330",
+            "Name": "Mavi - HOODED JACKET Blue",
+            "Description": "Mavi - HOODED JACKET Blue",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "89b6759e-83ba-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000331",
+            "Name": "Mavi - HOODED COAT Black",
+            "Description": "Mavi - HOODED COAT Black",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "959d9269-83ba-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000332",
+            "Name": "Mavi - HOODED COAT Sea Spray",
+            "Description": "Mavi - HOODED COAT Sea Spray",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "bfaa9b5b-83ba-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000333",
+            "Name": "Mavi - HOODED COAT Pumice Stone",
+            "Description": "Mavi - HOODED COAT Pumice Stone",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "e30a1c77-83ba-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000334",
+            "Name": "Wrangler - SHORT PUFFER",
+            "Description": "Wrangler - SHORT PUFFER",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "fc9d59b1-83ba-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000335",
+            "Name": "Wrangler - SHORT PUFFER",
+            "Description": "Wrangler - SHORT PUFFER",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "0479af31-83bb-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000336",
+            "Name": "ONLY PLAY - ONPEIDA LS HN RUN FZIP JCK",
+            "Description": "ONLY PLAY - ONPEIDA LS HN RUN FZIP JCK",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "0b30c095-83bb-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000337",
+            "Name": "ONLY PLAY - ONPJETTA HN FLEECE JCK - NOOS",
+            "Description": "ONLY PLAY - ONPJETTA HN FLEECE JCK - NOOS",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "049ef3eb-895f-11e6-80c3-005056b569bf",
+            "SourceCode": "00-00000339",
+            "Name": "მუყაოს ყუთი",
+            "Description": "მუყაოს ყუთი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-10-03 00:00:00"
+        },
+        {
+            "ProductID": "277b5254-895f-11e6-80c3-005056b569bf",
+            "SourceCode": "00-00000340",
+            "Name": "შეკვრის ცელოფანი",
+            "Description": "შეკვრის ცელოფანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-10-03 00:00:00"
+        },
+        {
+            "ProductID": "5ba76b9f-ab6c-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000343",
+            "Name": "იჯარა",
+            "Description": "იჯარა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-15 00:00:00"
+        },
+        {
+            "ProductID": "2eb24627-2a9c-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000411",
+            "Name": "გვერდების დამუშავება 4-6 მმ",
+            "Description": "გვერდების დამუშავება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "8f73367d-2a9c-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000412",
+            "Name": "გვერდების დამუშავება 8-10 მმ",
+            "Description": "გვერდების დამუშავება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "e716bdbc-2a9c-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000413",
+            "Name": "მინაზე ნახვრეტის გაკეთება D 5-9, 4-6 მმ",
+            "Description": "მინაზე ნახვრეტის გაკეთება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "2680e731-2a9d-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000414",
+            "Name": "მინაზე ნახვრეტის გაკეთება D 5-9, 8-10 მმ",
+            "Description": "მინაზე ნახვრეტის გაკეთება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "3fb47800-2a9d-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000415",
+            "Name": "მინაზე ნახვრეტის გაკეთება D 10-54, 4-6 მმ",
+            "Description": "მინაზე ნახვრეტის გაკეთება D 10-54, 4-6 მმ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "5229d813-2a9d-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000416",
+            "Name": "მინაზე ნახვრეტის გაკეთება D 10-54, 8-10 მმ",
+            "Description": "მინაზე ნახვრეტის გაკეთება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "6c980c70-2a9d-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000417",
+            "Name": "ამოჭრა",
+            "Description": "ამოჭრა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "1382da91-2b1a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000418",
+            "Name": "მინის წრთობა 8-12 მმ",
+            "Description": "მინის წრთობა 8-12 მმ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "6ad47b25-d9a9-11e7-80d8-005056b569bf",
+            "SourceCode": "00-00000445",
+            "Name": "ტრანსპორტირება",
+            "Description": "ტრანსპორტირება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-12-05 00:00:00"
+        },
+        {
+            "ProductID": "749bfa6d-d9a9-11e7-80d8-005056b569bf",
+            "SourceCode": "00-00000446",
+            "Name": "მონტაჟი",
+            "Description": "მონტაჟი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-12-05 00:00:00"
+        },
+        {
+            "ProductID": "39e777ab-79fb-11e8-80ef-005056b569bf",
+            "SourceCode": "00-00000467",
+            "Name": "მაცივრის თაროს შეკეთება",
+            "Description": "მაცივრის თაროს შეკეთება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-27 00:00:00"
+        },
+        {
+            "ProductID": "554488d8-79fb-11e8-80ef-005056b569bf",
+            "SourceCode": "00-00000468",
+            "Name": "მაცივრის ნათურის შეკეთება",
+            "Description": "მაცივრის ნათურის შეკეთება",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-27 00:00:00"
+        },
+        {
+            "ProductID": "69ea85de-79fb-11e8-80ef-005056b569bf",
+            "SourceCode": "00-00000469",
+            "Name": "მაცივრის შეცვლა",
+            "Description": "მაცივრის შეცვლა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-27 00:00:00"
+        },
+        {
+            "ProductID": "f142f7b9-7f9d-11e8-80ef-005056b569bf",
+            "SourceCode": "00-00000470",
+            "Name": "რეტრო-ბონუსი",
+            "Description": "რეტრო-ბონუსი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-07-04 00:00:00"
+        },
+        {
+            "ProductID": "e1a624aa-9e25-11ed-8155-0050569dcc8c",
+            "SourceCode": "00-00000490",
+            "Name": "მილების რეაბილიტაცია-მოდერნიზაცია",
+            "Description": "მილების რეაბილიტაცია-მოდერნიზაცია",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2023-01-27 00:00:00"
+        },
+        {
+            "ProductID": "78bbba31-b9c0-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000125",
+            "Name": "ბენზინი პრემიუმი",
+            "Description": "ბენზინი პრემიუმი",
+            "Unit": "f8b42a84-dc1d-11e7-80d9-005056b569bf",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "704c1e2f-aea3-11ed-8159-0050569dcc8c",
+            "SourceCode": "00-00000491",
+            "Name": "ევრო რეგულარი",
+            "Description": "ევრო რეგულარი",
+            "Unit": "f8b42a84-dc1d-11e7-80d9-005056b569bf",
+            "Status": "",
+            "LastChangeDate": "2023-02-17 00:00:00"
+        },
+        {
+            "ProductID": "0720a4b7-bf5a-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000129",
+            "Name": "სტეპლერი №10 2/E0228",
+            "Description": "სტეპლერი №10 2/E0228",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "35b36583-bf5a-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000130",
+            "Name": "ჩასანიშნი ფურცლები",
+            "Description": "ჩასანიშნი ფურცლები",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "4e5026c5-bf5a-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000131",
+            "Name": "ბაინდერი",
+            "Description": "ბაინდერი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "7b8ca203-bf5a-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000132",
+            "Name": "ფურცლების ჯამი",
+            "Description": "ფურცლების ჯამი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "97fa7863-bf5a-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000133",
+            "Name": "მარკერი წითელი",
+            "Description": "მარკერი წითელი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "b083ff48-bf5a-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000134",
+            "Name": "მარკერი შავი",
+            "Description": "მარკერი შავი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "c8a7bf1b-bf5a-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000135",
+            "Name": "მელანი",
+            "Description": "მელანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "2c9c88c9-bf5b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000136",
+            "Name": "სკრეპი (კლიპი)",
+            "Description": "სკრეპი (კლიპი)",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "4ab5f367-bf5b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000137",
+            "Name": "სკრეპი დიდი",
+            "Description": "სკრეპი დიდი",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "686a31cc-bf5b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000138",
+            "Name": "ცარცი საკანცელარიო",
+            "Description": "ცარცი საკანცელარიო",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "899b49cb-bf5b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000139",
+            "Name": "ჭიკარტი",
+            "Description": "ჭიკარტი",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "b45999c7-bf5b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000140",
+            "Name": "ფაილი",
+            "Description": "ფაილი",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "d223d18f-bf5b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000141",
+            "Name": "ქაღალდი ა-4 ქსეროქსისათვის",
+            "Description": "ქაღალდი ა-4 ქსეროქსისათვის",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "fdbb702a-bf5b-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000142",
+            "Name": "ქაღალდის სკოჩი 18მმ",
+            "Description": "ქაღალდის სკოჩი 18მმ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "17a26a95-bf5c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000143",
+            "Name": "შიდა ბრძანების ბლანკები",
+            "Description": "შიდა ბრძანების ბლანკები",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "504cf397-bf5c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000144",
+            "Name": "ბეჭდის ბალიში",
+            "Description": "ბეჭდის ბალიში",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "6415d17d-bf5c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000145",
+            "Name": "წებო მშრალი",
+            "Description": "წებო მშრალი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "a3851abc-bf5c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000146",
+            "Name": "ქაღალდის საჭრელი გილიოტინა",
+            "Description": "ქაღალდის საჭრელი გილიოტინა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "bd7c1a20-bf5c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000147",
+            "Name": "ბლოკნოტი ა-5 ზამბარიანი",
+            "Description": "ბლოკნოტი ა-5 ზამბარიანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "d76b78cb-bf5c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000148",
+            "Name": "მუყაოს საქაღალდე",
+            "Description": "მუყაოს საქაღალდე",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "f8844d1c-bf5c-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000149",
+            "Name": "დანა საკანცელარიო",
+            "Description": "დანა საკანცელარიო",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "24a9ae22-bf5d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000150",
+            "Name": "საწერი კალამი ლურჯი",
+            "Description": "საწერი კალამი ლურჯი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "7dff0798-bf5d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000151",
+            "Name": "ბლოკნოტი ლოგოთი",
+            "Description": "ბლოკნოტი ლოგოთი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "9bb45780-bf5d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000152",
+            "Name": "მაკრატელი",
+            "Description": "მაკრატელი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "c2e29537-bf5d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000153",
+            "Name": "დისკი CD-R",
+            "Description": "დისკი CD-R",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "eb8354c4-bf5d-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000154",
+            "Name": "დისკი DVD-R",
+            "Description": "დისკი DVD-R",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "dbabc77f-bf5f-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000156",
+            "Name": "სარეკლამო ფლაერები",
+            "Description": "სარეკლამო ფლაერები",
+            "Unit": "98c322e6-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "056b41f7-bf60-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000157",
+            "Name": "საგარანტიო ტალონი",
+            "Description": "საგარანტიო ტალონი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "8e88ad29-bf60-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000158",
+            "Name": "გოფრირებული მილი",
+            "Description": "გოფრირებული მილი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "a68cb0e7-bf60-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000159",
+            "Name": "ნათურა TL-D 18W/54-765",
+            "Description": "ნათურა TL-D 18W/54-765",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "c5e4b8ea-bf60-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000160",
+            "Name": "ქაღალდის პარკები ლოგოთი",
+            "Description": "ქაღალდის პარკები ლოგოთი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "d82e458c-bf60-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000161",
+            "Name": "მაუსი FV-X8",
+            "Description": "მაუსი FV-X8",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "f3facf27-bf60-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000162",
+            "Name": "კარის პეტლი",
+            "Description": "კარის პეტლი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "0757c928-bf61-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000163",
+            "Name": "ყურსასმენი",
+            "Description": "ყურსასმენი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "269e6e06-bf61-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000164",
+            "Name": "გურიელის მწვანე ჩაი 25 ც",
+            "Description": "გურიელის მწვანე ჩაი 25 ც",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "40a10880-bf61-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000165",
+            "Name": "ავეჯის საწმენდი",
+            "Description": "ავეჯის საწმენდი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "6ab38578-bf61-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000166",
+            "Name": "ანტიბაქტერიული სითხე (მათეთრებელი)",
+            "Description": "ანტიბაქტერიული სითხე (მათეთრებელი)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "847d3317-bf61-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000167",
+            "Name": "პლასტიკური ჭიქა",
+            "Description": "პლასტიკური ჭიქა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "a56a3b0d-bf61-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000168",
+            "Name": "პლასტიკური დანა",
+            "Description": "პლასტიკური დანა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "564f7977-fa38-11e5-80e7-005056a600d9",
+            "SourceCode": "00-00000202",
+            "Name": "პლასტმასი",
+            "Description": "პლასტმასი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-04-04 00:00:00"
+        },
+        {
+            "ProductID": "d6dde6aa-fa38-11e5-80e7-005056a600d9",
+            "SourceCode": "00-00000203",
+            "Name": "რაფა",
+            "Description": "რაფა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-04-04 00:00:00"
+        },
+        {
+            "ProductID": "67056f9d-280f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000361",
+            "Name": "ალერტეკი 10 მგ (20 ტაბ.)",
+            "Description": "ალერტეკი 10 მგ (20 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "958fb1c9-280f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000362",
+            "Name": "ერიუსი 5 მგ (30 ტაბ.)",
+            "Description": "ერიუსი 5 მგ (30 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "af4dd9e1-280f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000363",
+            "Name": "სუპრასტინი .25 მგ. (20 ტაბ.)",
+            "Description": "სუპრასტინი .25 მგ. (20 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "c8a7de1a-280f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000364",
+            "Name": "ალერფასტი 120 მგ. (10 ტაბ.)",
+            "Description": "ალერფასტი 120 მგ. (10 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "e006083f-280f-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000365",
+            "Name": "ვანსეარი 10მგ",
+            "Description": "ვანსეარი 10მგ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "1c630dc4-2810-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000366",
+            "Name": "ტავეგილი 2 მლ. (5 ამპ.)",
+            "Description": "ტავეგილი 2 მლ. (5 ამპ.)",
+            "Unit": "668a7b91-2810-11e7-80cd-005056b569bf",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "9b73c399-2810-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000367",
+            "Name": "ფენკაროლი 10 მგ (20 ტაბ.)",
+            "Description": "ფენკაროლი 10 მგ (20 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "d36f9783-2810-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000368",
+            "Name": "ცეზერა 5მგ (30 ტაბ.)",
+            "Description": "ერიუსი 5 მგ (30 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "0e708acb-4f8e-11e8-80ed-005056b569bf",
+            "SourceCode": "00-00000454",
+            "Name": "ცეზერა 10მგ (60 ტაბ.)",
+            "Description": "ცეზერა 10მგ (60 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-05-04 00:00:00"
+        },
+        {
+            "ProductID": "2612b1f5-2817-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000375",
+            "Name": "ვალერიანის ექსტრაქტი პიტნით (40 ტაბ.)",
+            "Description": "ვალერიანის ექსტრაქტი პიტნით (40 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "a98b399f-2817-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000376",
+            "Name": "სომნა-რიცი (10 კაფს.)",
+            "Description": "სომნა-რიცი (10 კაფს.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "13dbcee1-2818-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000377",
+            "Name": "ბიოსედატი (20 კაფს)",
+            "Description": "ბიოსედატი (20 კაფს)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "3139733b-2818-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000378",
+            "Name": "დეპრე-ფიქსი (30 ტაბ.)",
+            "Description": "დეპრე-ფიქსი (30 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "83184aa9-2811-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000369",
+            "Name": "ტაიქოლდი ლიმონი (10 კაფს.)",
+            "Description": "ტაიქოლდი ლიმონი (10 კაფს.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "9027bfa5-2814-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000370",
+            "Name": "ტაიქოლდი ჟოლო (10 კაფს.)",
+            "Description": "ტაიქოლდი ჟოლო (10 კაფს.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "d8f811cd-2814-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000371",
+            "Name": "ანტი გრიპინი საბავშვო შუშხუნა (10 ტაბ.)",
+            "Description": "ანტი გრიპინი საბავშვო შუშხუნა (10 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "fc1732ad-2814-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000372",
+            "Name": "ასპირინი C შუშხუნა (10 ტაბ.)",
+            "Description": "ასპირინი C შუშხუნა (10 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "468beb3a-2816-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000373",
+            "Name": "ეფექტი ფლუ (10 კაფს.)",
+            "Description": "ეფექტი ფლუ (10 კაფს.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "7ae85ac1-2816-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000374",
+            "Name": "ფერვექსი უშაქრო (8 პაკ.)",
+            "Description": "ფერვექსი უშაქრო (8 პაკ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "5423a637-2827-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000384",
+            "Name": "ეფერალგანი 80 მგ 10 სანთელი",
+            "Description": "ეფერალგანი 80 მგ 10 სანთელი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "994fb6e8-2827-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000385",
+            "Name": "ნო-შპა 40მგ (24 ტაბ.)",
+            "Description": "ნო-შპა 40მგ (24 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "aa647cf7-2827-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000386",
+            "Name": "ნო-შპა ფორტე 80მგ 24 (ტაბ.)",
+            "Description": "ნო-შპა ფორტე 80მგ 24 (ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "cbc5c176-2827-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000387",
+            "Name": "პანადოლი ექსტრა 12 (ტაბ.)",
+            "Description": "პანადოლი ექსტრა 12 (ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "e493de4d-2828-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000388",
+            "Name": "ციტრამონი P (6 ტაბ.)",
+            "Description": "ციტრამონი P (6 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "36bc6485-282a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000395",
+            "Name": "პულმოლანი 30მგ 20 (ტაბ.)",
+            "Description": "პულმოლანი 30მგ 20 (ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "6696d5ca-282a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000396",
+            "Name": "ზეთი ბენზოხერხის",
+            "Description": "ზეთი ბენზოხერხის",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "aefbdc82-282a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000398",
+            "Name": "ბატონი პური",
+            "Description": "ბატონი პური",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "cb3b63b5-282a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000399",
+            "Name": "ლუდი აისი 0,5 ლ",
+            "Description": "ლუდი აისი 0,5 ლ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "f8b374dc-282a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000400",
+            "Name": "მუკალტინი 0.05 გ 10 (ტაბ.)",
+            "Description": "მუკალტინი 0.05 გ 10 (ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "2b8b4136-282b-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000401",
+            "Name": "ფლავამედი 60 მგ,შუშხუნა 10  (ტაბ.)",
+            "Description": "ფლავამედი 60 მგ,შუშხუნა 10  (ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "c614ed69-2824-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000379",
+            "Name": "ალბუციდი 30% თვალის წვეთი, ფლაკონი (10 მლ.)",
+            "Description": "ალბუციდი 30% თვალის წვეთი, ფლაკონი (10 მლ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "3d9b99f4-2825-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000380",
+            "Name": "ვიზინი 0.05% თვალის წვეთი 15მლ.",
+            "Description": "ვიზინი 0.05% თვალის წვეთი 15მლ.",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "8263ef3d-2825-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000381",
+            "Name": "ოფთაგელი 2.5მგ/გ 10გ",
+            "Description": "ოფთაგელი 2.5მგ/გ 10გ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "cef31c97-2825-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000382",
+            "Name": "ფლუზამედი 0.3% თვალის წვეთები 5მლ. ",
+            "Description": "ფლუზამედი 0.3% თვალის წვეთები 5მლ. ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "0a55bff0-2829-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000389",
+            "Name": "სტრეპსილსი ლიმონით უშაქრო, საწუწნი (24 ტაბ.)",
+            "Description": "სტრეპსილსი ლიმონით უშაქრო, საწუწნი (24 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "1bc05b75-2829-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000390",
+            "Name": "ერთჯერადი ყავა 5გრ",
+            "Description": "ერთჯერადი ყავა 5გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "39ed6eef-2829-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000391",
+            "Name": "სტრეპსილსი+ვიტამინი C, საწუწნი (24 ტაბ.)",
+            "Description": "სტრეპსილსი+ვიტამინი C, საწუწნი (24 ტაბ.)",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "4b5ccef7-2829-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000392",
+            "Name": "ტანტუმ-ვერდე 30მლ. აეროზოლი",
+            "Description": "ტანტუმ-ვერდე 30მლ. აეროზოლი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "6bc3ba2e-2829-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000393",
+            "Name": "ტრახისანი, ხსნარი 200 მლ.",
+            "Description": "ტრახისანი, ხსნარი 200 მლ.",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "86d21192-2829-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000394",
+            "Name": "სიგარეტი დავიდოვი",
+            "Description": "სიგარეტი დავიდოვი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "d9c0580d-2a88-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000404",
+            "Name": "მინა გამჭირვალე 10 მმ 6000*3210",
+            "Description": "მინა გამჭირვალე 10 მმ 3210*2250",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "8b0ae4bc-2a8a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000405",
+            "Name": "მინა ევრონაცრისფერი 6 მმ 3300*2140",
+            "Description": "მინა ევრონაცრისფერი 6 მმ 3300*2140",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "baa0b417-2a8a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000406",
+            "Name": "მინა გამჭირვალე 8 მმ 3660*2440",
+            "Description": "მინა გამჭირვალე 8 მმ 3660*2440",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "c3b02aa8-2a8b-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000408",
+            "Name": "ნაწრთობი მინა გამჭირვალე 10 მმ 6000*3210",
+            "Description": "ნაწრთობი მინა გამჭირვალე 10 მმ 6000*3210",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "b9674245-2a96-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000409",
+            "Name": "ნაწრთობი მინა გამჭირვალე 8 მმ 3660*2440 ",
+            "Description": "ნაწრთობი მინა გამჭირვალე 8 მმ 3660*2440 ",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "cc919449-2a96-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000410",
+            "Name": "ნაწრთობი მინა ევრონაცრისფერი 10 მმ 3300*2140",
+            "Description": "ნაწრთობი მინა ევრონაცრისფერი 10 მმ 3300*2140",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-26 00:00:00"
+        },
+        {
+            "ProductID": "f5094879-2b24-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000420",
+            "Name": "ჭერის პროფილი CD 60x27x0.6x3000",
+            "Description": "ჭერის პროფილი CD 60x27x0.6x3000",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "b3d3650e-2b3b-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000422",
+            "Name": "სავარძელი",
+            "Description": "სავარძელი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "79b0d401-2b3c-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000424",
+            "Name": "ხის ფიცარი",
+            "Description": "ხის ფიცარი",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "4cb73617-2b3d-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000426",
+            "Name": "დამუშავებული ხე",
+            "Description": "დამუშავებული ხე",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-27 00:00:00"
+        },
+        {
+            "ProductID": "ba3894d7-2fe6-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000435",
+            "Name": "ლითონის მასალა",
+            "Description": "ლითონის მასალა",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-05-03 00:00:00"
+        },
+        {
+            "ProductID": "7f66fe12-2fe8-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000436",
+            "Name": "ქვის ფილა",
+            "Description": "ქვის ფილა",
+            "Unit": "98c322e2-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-05-03 00:00:00"
+        },
+        {
+            "ProductID": "5a05d9a8-3c8e-11e7-80ce-005056b569bf",
+            "SourceCode": "00-00000438",
+            "Name": "ლიცენზია",
+            "Description": "ლიცენზია",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-05-19 00:00:00"
+        },
+        {
+            "ProductID": "57c728f1-3c99-11e7-80ce-005056b569bf",
+            "SourceCode": "00-00000439",
+            "Name": "ბენზინი რეგულარი",
+            "Description": "ბენზინი რეგულარი",
+            "Unit": "f8b42a84-dc1d-11e7-80d9-005056b569bf",
+            "Status": "",
+            "LastChangeDate": "2017-05-19 00:00:00"
+        },
+        {
+            "ProductID": "e905e1f7-9a73-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000025",
+            "Name": "სარეცხი ფხვნილი ფერადი 450 გრ",
+            "Description": "სარეცხი ფხვნილი ფერადი 450 გრ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "3b268fa5-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000177",
+            "Name": "KOM. ფანჯრის რაფა",
+            "Description": "KOM. ფანჯრის რაფა",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "75396383-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000178",
+            "Name": "KOM. ფანჯრის რაფა კაკლისფერი 40მმ-იანი",
+            "Description": "KOM. ფანჯრის რაფა კაკლისფერი 40მმ-იანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "82dd0caf-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000179",
+            "Name": "KOM. ფანჯრის რაფა კაკლისფერი  30 მმ-იანი",
+            "Description": "KOM. ფანჯრის რაფა კაკლისფერი  30 მმ-იანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "8ba11c3d-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000180",
+            "Name": "KOM. ფანჯრის რაფა კაკლისფერი  25 მმ-იანი",
+            "Description": "KOM. ფანჯრის რაფა კაკლისფერი  25 მმ-იანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "98e84f4a-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000181",
+            "Name": "KOM. ფანჯრის რაფა კაკლისფერი  20 მმ-იანი",
+            "Description": "KOM. ფანჯრის რაფა კაკლისფერი  20 მმ-იანი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "a3efd92b-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000182",
+            "Name": "KOM. რაფის ქუდი კაკლისფერი",
+            "Description": "KOM. რაფის ქუდი კაკლისფერი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "e15beb0a-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000183",
+            "Name": "პლასტმასის შესადუღებელი დანადგარი  უთო",
+            "Description": "პლასტმასის შესადუღებელი დანადგარი  უთო",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "ec5f04c1-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000184",
+            "Name": "პატარა ხერხი \"GAMMA\"",
+            "Description": "პატარა ხერხი \"GAMMA\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "f52b16a5-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000185",
+            "Name": "კოპირების ფრეზი \"STAR\"",
+            "Description": "კოპირების ფრეზი \"STAR\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "fd5ac19a-c009-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000186",
+            "Name": "კომპრესორი 200 ლტ",
+            "Description": "კომპრესორი 200 ლტ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "b8d4770b-c10c-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000200",
+            "Name": "რეზინის მწარმოებელი დანადგარი",
+            "Description": "რეზინის მწარმოებელი დანადგარი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-22 00:00:00"
+        },
+        {
+            "ProductID": "28e15236-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000187",
+            "Name": "ბურღი  5*87*132მმ  გრძელი",
+            "Description": "ბურღი  5*87*132მმ  გრძელი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "328464a7-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000188",
+            "Name": "ბურღი  3.5*39*70 მმ  მოკლე",
+            "Description": "ბურღი  3.5*39*70 მმ  მოკლე",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "3ae558f0-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000189",
+            "Name": "ბურღი  11*128*195მმ გრძელი",
+            "Description": "ბურღი  11*128*195მმ გრძელი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "430a57eb-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000190",
+            "Name": "ბურღი  10*87*133 მმ მოკლე",
+            "Description": "ბურღი  10*87*133 მმ მოკლე",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "4bb65d15-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000191",
+            "Name": "ბურღი  10*121*184მმ გრძელი",
+            "Description": "ბურღი  10*121*184მმ გრძელი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "5bf1d783-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000192",
+            "Name": "დანადგარის ნაწილები",
+            "Description": "დანადგარის ნაწილები",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "649f65aa-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000193",
+            "Name": "ხერხის დამჭერი",
+            "Description": "ხერხის დამჭერი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "6fcb14be-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000194",
+            "Name": "უთოს რელე",
+            "Description": "უთოს რელე",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "789f651a-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000195",
+            "Name": "როლიკი",
+            "Description": "როლიკი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "84184a6e-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000196",
+            "Name": "ნახშირი",
+            "Description": "ნახშირი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "a0eeb7c2-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000198",
+            "Name": "შურუპის ჩასახრახნი დრელი  OSAKA",
+            "Description": "შურუპის ჩასახრახნი დრელი  OSAKA",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "a88abcdf-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000199",
+            "Name": "ბორმანქანა  OSAKA.",
+            "Description": "ბორმანქანა  OSAKA.",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "51ba8057-b289-11e7-80d6-005056b569bf",
+            "SourceCode": "00-00000442",
+            "Name": "ოფისის სკამი",
+            "Description": "ოფისის სკამი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-10-16 00:00:00"
+        },
+        {
+            "ProductID": "606a8399-b289-11e7-80d6-005056b569bf",
+            "SourceCode": "00-00000443",
+            "Name": "მონიტორი",
+            "Description": "მონიტორი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-10-16 00:00:00"
+        },
+        {
+            "ProductID": "be3a0785-0c3b-11e8-80e4-005056b569bf",
+            "SourceCode": "00-00000451",
+            "Name": "მაუსი",
+            "Description": "მაუსი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-02-07 00:00:00"
+        },
+        {
+            "ProductID": "e580583e-3897-11e8-80ec-005056b569bf",
+            "SourceCode": "00-00000452",
+            "Name": "კატერპილარი",
+            "Description": "კატერპილარი",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-04-05 00:00:00"
+        },
+        {
+            "ProductID": "748b8a22-6e2b-11e8-80ed-8b275c3a4661",
+            "SourceCode": "00-00000457",
+            "Name": "ხაჭაპური \"იმერული\"",
+            "Description": "ხაჭაპური \"იმერული\"",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-06-12 00:00:00"
+        },
+        {
+            "ProductID": "9c3cbc10-9a7f-11e5-80bc-000c295e18a3",
+            "SourceCode": "4          ",
+            "Name": "ჩაი ლიმნის არომატი",
+            "Description": "ჩაი ლიმნის არომატ",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "5569f6bf-5481-11e9-80fd-005056b569bf",
+            "SourceCode": "5          ",
+            "Name": "პეპსი 0.5ლ",
+            "Description": "პეპსი 0.5ლ",
+            "Unit": "7fa8c30b-b8fb-11e5-80ca-005056a600d9",
+            "Status": "",
+            "LastChangeDate": "2019-04-01 00:00:00"
+        },
+        {
+            "ProductID": "b5976ce4-5482-11e9-80fd-005056b569bf",
+            "SourceCode": "6          ",
+            "Name": "პეპსი 0.33ლ",
+            "Description": "პეპსი 0.33ლ ",
+            "Unit": "7fa8c30b-b8fb-11e5-80ca-005056a600d9",
+            "Status": "",
+            "LastChangeDate": "2019-04-01 00:00:00"
+        },
+        {
+            "ProductID": "fc26dbe4-5482-11e9-80fd-005056b569bf",
+            "SourceCode": "7          ",
+            "Name": "მირინდა 1ლ",
+            "Description": "მირინდა 1ლ",
+            "Unit": "7fa8c30b-b8fb-11e5-80ca-005056a600d9",
+            "Status": "",
+            "LastChangeDate": "2019-04-01 00:00:00"
+        },
+        {
+            "ProductID": "ee6d664c-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000274",
+            "Name": "Mavi - ONE SHOULDER DRESS",
+            "Description": "Mavi - ONE SHOULDER DRESS",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "f73cee1d-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000275",
+            "Name": "Mavi - CUT DETAIL DRESS",
+            "Description": "Mavi - CUT DETAIL DRESS",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "ff73de1a-83b6-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000276",
+            "Name": "Mavi - PRINTED DRESS",
+            "Description": "Mavi - PRINTED DRESS",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "0d78365e-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000277",
+            "Name": "Mavi - SHORT SLEEVE DRESS",
+            "Description": "Mavi - SHORT SLEEVE DRESS",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "16cd436f-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000278",
+            "Name": "Mavi - V NECK DRESS",
+            "Description": "Mavi - V NECK DRESS",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "f5e4b5ff-9a7e-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000057",
+            "Name": "Levis - GRAPHIC STANDARD HOODIE",
+            "Description": "Levis - GRAPHIC STANDARD HOODIE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "974eebe1-c00a-11e5-80ce-005056a600d9",
+            "SourceCode": "00-00000197",
+            "Name": "Levis - GRAPHIC STANDARD HOODIE",
+            "Description": "Levis - GRAPHIC STANDARD HOODIE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-20 00:00:00"
+        },
+        {
+            "ProductID": "0c7f664a-83b9-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000323",
+            "Name": "Levis - VINTAGE RAGLAN CREW",
+            "Description": "Levis - VINTAGE RAGLAN CREW",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "25fd2e24-83b9-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000324",
+            "Name": "Levis - VINTAGE RAGLAN CREW",
+            "Description": "Levis - VINTAGE RAGLAN CREW",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "5bde40e7-83b9-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000326",
+            "Name": "Levis - GRAPHIC STANDARD HOODIE",
+            "Description": "Levis - GRAPHIC STANDARD HOODIE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "f539d8a5-83b9-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000328",
+            "Name": "Levis - GRAPHIC STANDARD HOODIE",
+            "Description": "Levis - GRAPHIC STANDARD HOODIE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "1c1d2cbe-2826-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000383",
+            "Name": "Mavi - SWEATSHIRT",
+            "Description": "Mavi - SWEATSHIRT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "892bacc3-282a-11e7-80cd-005056b569bf",
+            "SourceCode": "00-00000397",
+            "Name": "Mavi - SWEATSHIRT",
+            "Description": "Mavi - SWEATSHIRT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2017-04-23 00:00:00"
+        },
+        {
+            "ProductID": "dc30ed9e-4f8d-11e8-80ed-005056b569bf",
+            "SourceCode": "00-00000453",
+            "Name": "Mavi - SWEATSHIRT",
+            "Description": "Mavi - SWEATSHIRT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2018-05-04 00:00:00"
+        },
+        {
+            "ProductID": "a00125f4-9a74-11e5-80bc-000c295e18a3",
+            "SourceCode": "00-00000029",
+            "Name": "Wrangler - REGULAR TEE",
+            "Description": "Wrangler - REGULAR TEE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2015-12-04 00:00:00"
+        },
+        {
+            "ProductID": "8833f691-b9c0-11e5-80cc-005056a600d9",
+            "SourceCode": "00-00000126",
+            "Name": "Mavi - LONG SLEEVE SHIRT",
+            "Description": "Mavi - LONG SLEEVE SHIRT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-01-12 00:00:00"
+        },
+        {
+            "ProductID": "1f101f24-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000279",
+            "Name": "Mavi - POCKET BLOUSE",
+            "Description": "Mavi - POCKET BLOUSE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "2d5e612a-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000280",
+            "Name": "Wrangler - REGULAR TEE",
+            "Description": "Wrangler - REGULAR TEE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "435bab64-83b7-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000281",
+            "Name": "Wrangler - LOGO TEE",
+            "Description": "Wrangler - LOGO TEE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "fbc075b7-83b8-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000322",
+            "Name": "Wrangler - BABY TEE ZIP NECK",
+            "Description": "Wrangler - BABY TEE ZIP NECK",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "3ab63570-83b9-11e6-80c1-005056b569bf",
+            "SourceCode": "00-00000325",
+            "Name": "Wrangler - LOGO TEE",
+            "Description": "Wrangler - LOGO TEE",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-09-26 00:00:00"
+        },
+        {
+            "ProductID": "3b2aff64-aafc-11e6-80c4-005056b569bf",
+            "SourceCode": "00-00000341",
+            "Name": "Wrangler - WESTERN FRILL SHIRT",
+            "Description": "Wrangler - WESTERN FRILL SHIRT",
+            "Unit": "98c322db-8e86-11e5-a87d-001f29efb30a",
+            "Status": "",
+            "LastChangeDate": "2016-11-15 00:00:00"
+        }
+    ]
+}

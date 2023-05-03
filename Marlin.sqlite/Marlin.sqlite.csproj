@@ -8,11 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Barcodes.json" />
     <Content Remove="Marlin-PO.json" />
+    <Content Remove="ProductCategories.json" />
+    <Content Remove="Products.json" />
+    <Content Remove="ProductsByCategories.json" />
+    <Content Remove="Shops.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Barcodes.json" />
     <None Include="Marlin-PO.json" />
+    <None Include="ProductCategories.json" />
+    <None Include="Products.json" />
+    <None Include="ProductsByCategories.json" />
+    <None Include="Shops.json" />
   </ItemGroup>
 
   <ItemGroup>
